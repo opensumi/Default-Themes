@@ -1,0 +1,30 @@
+{
+  "name": "ide-theme-defaults",
+  "displayName": "%displayName%",
+  "description": "%description%",
+  "categories": [
+    "Themes"
+  ],
+  "version": "1.1.0",
+  "publisher": "cloud-ide",
+  "engines": {
+    "vscode": "*"
+  },
+  "scripts": {
+    "release": "standard-version"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "id": "cloudide-dark",
+        "label": "%theme.name.dark%",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark_plus.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@alipay/cloud-ide-ext-vscode-extension-builder": "^3.0.5",
+    "standard-version": "^7.0.0"
+  }
+}

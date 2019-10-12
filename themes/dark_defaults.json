@@ -1,0 +1,59 @@
+{
+	"$schema": "vscode://schemas/color-theme",
+	"name": "Dark Default Colors",
+	"colors": {
+    "editor.background": "#242526",
+		"editor.foreground": "#D4D4D4",
+		// "editor.inactiveSelectionBackground": "#3A3D41",
+		// "editorIndentGuide.background": "#404040",
+		// "editorIndentGuide.activeBackground": "#707070",
+    // "editor.selectionHighlightBackground": "#ADD6FF26",
+
+    "statusBar.background": "#16181A",
+    "statusBarItem.hoverBackground": "#FFFFFF12",
+    "statusBarItem.activeBackground": "#FFFFFF1A",
+    // "statusBarItem.remoteForeground": "#FFF",
+    // "statusBarItem.remoteBackground": "#16825D",
+
+    "menu.background": "#333A40",
+    "menu.foreground": "#FFFFFFA6",
+    "menu.selectionBackground": "#FFFFFF12",
+    "menu.separatorBackground": "#FFFFFF0D",
+
+    "menubar.selectionBackground": "#FFFFFF12",
+
+    "activityBar.background":"#333A40",
+    "activityBar.foreground": "#FFFFFFD9",
+    "activityBar.inactiveForeground": "#FFFFFF73",
+    "activityBarBadge.background": "#0070D9",
+    "activityBarBadge.foreground": "#FFFFFF",
+
+    "sideBar.background": "#2B2F33",
+    "sideBarTitle.foreground": "#FFFFFFD9",
+
+    "list.activeSelectionBackground": "#00498C",
+    "list.focusBackground": "#00498C",
+    "list.hoverBackground": "#FFFFFF14",
+    // "list.activeSelectionForeground": "",
+    // "list.hoverForeground": "#D4D4D4",
+		// "list.focusBackground": "#1890FF",
+    // "list.focusForeground": "#E4E4E4",
+    // "list.dropBackground": "#383B3D",
+    "input.placeholderForeground": "#FFFFFF40",
+
+    "tab.activeBackground": "#242526",
+    "tab.activeForeground": "#FFFFFF",
+    "tab.inactiveForeground": "#FFFFFFA6",
+    "tab.inactiveBackground": "#272B2E",
+
+    "editorGroupHeader.tabsBackground": "#242526",
+
+    "panel.background": "#272B2E",
+
+		// "input.placeholderForeground": "#683333",
+		// "settings.textInputBackground": "#292929",
+		// "settings.numberInputBackground": "#292929",
+		// "list.highlightForeground":"#FFFFFF",
+    // "input.background": "#3B3B4D",
+	}
+}
