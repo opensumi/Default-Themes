@@ -10,11 +10,6 @@
   "engines": {
     "vscode": "*"
   },
-  "scripts": {
-    "version": "standard-version",
-    "prepack": "tnpm i && npm run version && rm -rf node_modules && tnpm i",
-    "pack": "node pack.js"
-  },
   "contributes": {
     "themes": [
       {
@@ -24,10 +19,5 @@
         "path": "./themes/dark_plus.json"
       }
     ]
-  },
-  "devDependencies": {
-    "@alipay/cloud-ide-ext-vscode-extension-builder": "^3.0.6",
-    "runscript": "^1.4.0",
-    "standard-version": "^7.0.0"
   }
 }
