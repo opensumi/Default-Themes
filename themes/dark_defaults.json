@@ -40,11 +40,20 @@
     "button.foreground": "#ffffff",
     "button.hoverBackground": "#2288E6",
 
+    // kaitian custom button
+    "kt.secondary.button.foreground": "#ffffffd9",
+    "kt.secondary.button.border": "#626A73",
+    "kt.secondary.button.hoverForeground": "#0063BF",
+    "kt.danger.button.foreground": "#ffffff",
+    "kt.danger.button.background": "#FF4D4F",
+    "kt.danger.button.hoverBackground": "#FF7673",
+
     "input.placeholderForeground": "#ffffff40",
     "inputOption.activeBorder": "#00488C",
     "inputValidation.errorBorder": "#FF4D4F",
     "input.foreground": "#ffffffa6",
     "input.background": "#16181A",
+    "kt.inputOption.hoverBorder": "#0070D9",
 
     "dropdown.background": "#333A40",
     "dropdown.listBackground": "#333A40",
@@ -58,6 +67,7 @@
 
     "notifications.background": "#2B2F33",
     "notifications.foreground": "#ffffffa6",
+    "notificationCenterHeader.foreground": "#ffffff73",
 
     "checkbox.background": "#0070D9",
     "checkbox.border": "#16181A",
@@ -74,7 +84,8 @@
 
     "sideBar.background":"#2B2F33",
     "sideBarTitle.foreground":"#FFFFFFD9",
-    "sideBarSectionHeader.background": "#0000001a",
+    "sideBarSectionHeader.foreground": "#ffffff",
+    "sideBarSectionHeader.background": "#ffffff1a",
 
     "tab.activeBackground":"#242526",
     "tab.activeForeground":"#FFFFFF",
@@ -92,6 +103,8 @@
 
     "editorLineNumber.foreground": "#ffffff73",
     "editorLineNumber.activeForeground": "#ffffffd9",
+
+    "editorGroupHeader.tabsBorder":"#ffffff0d",
 
     // "editor.inactiveSelectionBackground":"#3A3D41",
     // "editorIndentGuide.background":"#404040",
@@ -111,7 +124,7 @@
     "list.activeSelectionBackground":"#00498C",
     "list.hoverBackground":"#FFFFFF14",
     // 不生效
-    "list.focusBackground":"#1D2F40",
+    "list.focusBackground":"#ff0000",
     // 待更新，选中但不 focus 时
     "list.inactiveSelectionBackground:": "#1D2F40",
     "list.inactiveFocusBackground": "#1D2F40",
@@ -122,5 +135,11 @@
     "panelTitle.activeForeground": "#ffffffd9",
     "panelTitle.inactiveForeground": "#ffffffa6",
     "panelInput.border":"#00488c",
+    "kt.panelTitle.background": "#272B2E", // todo @芮晗
+
+    "kt.tooltip.background": "#4C5359",
+    "kt.tooltip.foreground": "#ffffffd9",
+
+    // "kt.notificationsCloseIcon.foreground": ""
   }
 }
