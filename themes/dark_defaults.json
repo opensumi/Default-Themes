@@ -133,7 +133,7 @@
     "panelTitle.activeForeground": "#ffffffd9",
     "panelTitle.inactiveForeground": "#ffffffa6",
     "panelInput.border":"#00488c",
-    "kt.panelTitle.background": "#272B2E", // todo @芮晗
+    "kt.panelTitle.background": "#272B2E",
 
     "kt.tooltip.background": "#4C5359",
     "kt.tooltip.foreground": "#ffffffd9",
