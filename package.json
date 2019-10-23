@@ -1,7 +1,7 @@
 {
   "name": "ide-theme-defaults",
-  "displayName": "%displayName%",
-  "description": "%description%",
+  "displayName": "IDE Dark Theme",
+  "description": "IDE Theme",
   "categories": [
     "Themes"
   ],
@@ -10,14 +10,33 @@
   "engines": {
     "vscode": "*"
   },
+  "scripts": {
+    "release": "standard-version"
+  },
   "contributes": {
     "themes": [
       {
-        "id": "cloudide-dark",
-        "label": "%theme.name.dark%",
+        "id": "ide-dark",
+        "label": "IDE Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/dark_plus.json"
       }
     ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
+    "husky": "^3.0.9",
+    "standard-version": "^7.0.0"
   }
 }

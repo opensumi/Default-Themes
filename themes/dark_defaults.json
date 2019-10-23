@@ -1,7 +1,7 @@
-{ 
+{
   "$schema":"vscode://schemas/color-theme",
   "name":"Dark Default Colors",
-  "colors":{ 
+  "colors":{
     "foreground": "#ffffffa6",
     "descriptionForeground": "#ffffff73",
 
@@ -115,13 +115,13 @@
     "statusBarItem.hoverBackground":"#FFFFFF12",
     "statusBarItem.activeBackground":"#FFFFFF1A",
 
-    "menubar.selectionBackground":"#ffffffcc",
+    "menubar.selectionBackground":"#0000001a",
     "menu.background":"#333A40",
     "menu.foreground":"#FFFFFFA6",
     "menu.selectionBackground":"#FFFFFF12",
     "menu.separatorBackground":"#0000000d",
 
-    "list.activeSelectionBackground":"#00498C",
+    "list.activeSelectionBackground":"#00488C",
     "list.hoverBackground":"#FFFFFF14",
     // 待更新，选中但不 focus 时
     "list.inactiveSelectionBackground:": "#1D2F40",
