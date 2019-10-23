@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.3](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.4.2...v1.4.3) (2019-10-23)
+
+
+### Bug Fixes
+
+* 修改终端文字选中背景色 ([79d796c](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/79d796c))
+
 ### [1.4.2](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.4.1...v1.4.2) (2019-10-23)
 
 
