@@ -139,6 +139,6 @@
     "kt.tooltip.foreground": "#ffffffd9",
 
     "kt.notificationsCloseIcon.foreground": "#ffffff73",
-    "terminal.selectionBackground": "#ffffffa6"
+    "terminal.selectionBackground": "#00498ca6"
   }
 }
