@@ -94,7 +94,7 @@
 
     "terminal.background": "#272B2E",
     "terminal.foreground": "#ffffffa6",
-    "terminal.selectionBackground": "#0000001a",
+    "terminal.selectionBackground": "#00498ca6",
 
     "editorGroupHeader.tabsBackground":"#272b2e",
 
@@ -124,7 +124,7 @@
     "list.activeSelectionBackground":"#00488C",
     "list.hoverBackground":"#FFFFFF14",
     // 待更新，选中但不 focus 时
-    "list.inactiveSelectionBackground:": "#1D2F40",
+    "list.inactiveSelectionBackground": "#1D2F40",
     "list.inactiveFocusBackground": "#1D2F40",
 
     "panel.background":"#242526",
@@ -138,7 +138,6 @@
     "kt.tooltip.background": "#4C5359",
     "kt.tooltip.foreground": "#ffffffd9",
 
-    "kt.notificationsCloseIcon.foreground": "#ffffff73",
-    "terminal.selectionBackground": "#00498ca6"
+    "kt.notificationsCloseIcon.foreground": "#ffffff73"
   }
 }
