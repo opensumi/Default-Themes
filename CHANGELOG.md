@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.4](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.4.3...v1.4.4) (2019-10-29)
+
+
+### Bug Fixes
+
+* list.inactiveSelectionBackground 多了一个冒号导致不生效 ([220456a](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/220456a))
+
 ### [1.4.3](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.4.2...v1.4.3) (2019-10-23)
 
 
