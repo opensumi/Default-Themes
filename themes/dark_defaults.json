@@ -100,6 +100,8 @@
 
     "editor.background":"#242526",
     "editor.foreground":"#ffffffa6",
+    "editor.findMatchHighlightBackground": "#fa541c40",
+    "diffEditor.insertedTextBackground": "#00d96d40",
 
     "editorLineNumber.foreground": "#ffffff73",
     "editorLineNumber.activeForeground": "#ffffffd9",
@@ -119,7 +121,7 @@
     "menu.background":"#333A40",
     "menu.foreground":"#FFFFFFA6",
     "menu.selectionBackground":"#FFFFFF12",
-    "menu.separatorBackground":"#0000000d",
+    "menu.separatorBackground":"#ffffff0d",
 
     "list.activeSelectionBackground":"#00488C",
     "list.hoverBackground":"#43494E",
