@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.4.5...v1.6.0) (2019-10-30)
+
+
+### Features
+
+* 增加搜索相关色值 ([05d6151](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/05d615158910991155735a73594e72c33fb11731))
+
 ## [1.5.0](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.4.5...v1.5.0) (2019-10-30)
 
 
