@@ -122,7 +122,7 @@
     "menu.separatorBackground":"#0000000d",
 
     "list.activeSelectionBackground":"#00488C",
-    "list.hoverBackground":"#FFFFFF14",
+    "list.hoverBackground":"#43494E",
     // 待更新，选中但不 focus 时
     "list.inactiveSelectionBackground": "#1D2F40",
     "list.inactiveFocusBackground": "#1D2F40",
