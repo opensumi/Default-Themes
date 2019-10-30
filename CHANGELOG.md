@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.5](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.4.4...v1.4.5) (2019-10-30)
+
+
+### Bug Fixes
+
+* remove transparency in token list.hoverBackground ([859aa07](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/859aa07))
+
 ### [1.4.4](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.4.3...v1.4.4) (2019-10-29)
 
 
