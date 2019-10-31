@@ -78,7 +78,7 @@
     "breadcrumb.background": "#242526",
     "breadcrumbPicker.background": "#333A40",
 
-    "activityBar.foreground":"#FFFFFFD9",
+    "activityBar.foreground":"#FFFFFF",
     "activityBar.background":"#333A40",
     "activityBar.inactiveForeground":"#FFFFFF73",
 
@@ -120,10 +120,11 @@
     "menubar.selectionBackground":"#0000001a",
     "menu.background":"#333A40",
     "menu.foreground":"#FFFFFFA6",
-    "menu.selectionBackground":"#FFFFFF12",
+    "menu.selectionBackground":"#FFFFFF14",
     "menu.separatorBackground":"#ffffff0d",
+    "kt.menu.descriptionForeground": "#ffffff73",
 
-    "list.activeSelectionBackground":"#00488C",
+    "list.activeSelectionBackground":"#00498C",
     "list.hoverBackground":"#43494E",
     // 待更新，选中但不 focus 时
     "list.inactiveSelectionBackground": "#1D2F40",
