@@ -60,7 +60,7 @@
     "dropdown.foreground": "#ffffffa6",
     // "dropdown.border": "#ff0000",
 
-    "badge.background": "#0070D9",
+    "badge.background": "#ffffff14",
     "badge.foreground": "#FFFFFF",
     "activityBarBadge.background": "#0070D9",
     "activityBarBadge.foreground": "#FFFFFF",
