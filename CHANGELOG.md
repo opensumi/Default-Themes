@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.6.1](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.6.0...v1.6.1) (2019-10-31)
+
+
+### Bug Fixes
+
+* 更新 badge background color ([f709d79](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/f709d79b1e335f57177db38d4c7bb5342ab85cd2))
+
 ## [1.6.0](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.4.5...v1.6.0) (2019-10-30)
 
 
