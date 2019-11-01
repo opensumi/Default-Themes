@@ -83,6 +83,7 @@
     "activityBar.inactiveForeground":"#FFFFFF73",
 
     "sideBar.background":"#2B2F33",
+    "sideBar.border": "#16181a",
     "sideBarTitle.foreground":"#FFFFFFD9",
     "sideBarSectionHeader.foreground": "#ffffff",
     "sideBarSectionHeader.background": "#ffffff1a",
@@ -92,14 +93,14 @@
     "tab.inactiveForeground":"#FFFFFFA6",
     "tab.inactiveBackground":"#272B2E",
 
-    "terminal.background": "#272B2E",
+    "terminal.background": "#242526",
     "terminal.foreground": "#ffffffa6",
     "terminal.selectionBackground": "#00498ca6",
 
     "editorGroupHeader.tabsBackground":"#272b2e",
 
     "editor.background":"#242526",
-    "editor.foreground":"#ffffffa6",
+    "editor.foreground":"#B2B2B3",
     "editor.findMatchHighlightBackground": "#fa541c40",
     "diffEditor.insertedTextBackground": "#00d96d40",
 
@@ -122,6 +123,7 @@
     "menu.foreground":"#FFFFFFA6",
     "menu.selectionBackground":"#FFFFFF14",
     "menu.separatorBackground":"#ffffff0d",
+    "kt.menubar.border": "#16181a",
     "kt.menu.descriptionForeground": "#ffffff73",
 
     "list.activeSelectionBackground":"#00498C",
