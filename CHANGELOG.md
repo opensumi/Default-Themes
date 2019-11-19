@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.7.0](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.6.3...v1.7.0) (2019-11-19)
+
+
+### Features
+
+* 增加 Debug 状态下的 StatusBar 的背景颜色 ([052b7d1](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/052b7d1591b3398c50bcb5b76bbce1b32aab5d9c))
+
 ### [1.6.3](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.6.2...v1.6.3) (2019-11-01)
 
 
