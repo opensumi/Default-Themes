@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.8.0](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.7.0...v1.8.0) (2019-11-20)
+
+
+### Features
+
+* 把 Debug 的颜色设置成黄色,而不是蓝色,保持用户习惯 ([f76fafd](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/f76fafdddec9b59d38e9a8d2a3df158f63a3f679))
+
 ## [1.7.0](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.6.3...v1.7.0) (2019-11-19)
 
 
