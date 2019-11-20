@@ -115,7 +115,7 @@
     // "editor.selectionHighlightBackground":"#ADD6FF26",
 
     "statusBar.background":"#16181A",
-    "statusBar.debuggingBackground": "#167CDB",
+    "statusBar.debuggingBackground": "#D77915",
     "statusBarItem.hoverBackground":"#FFFFFF12",
     "statusBarItem.activeBackground":"#FFFFFF1A",
 
