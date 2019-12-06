@@ -94,8 +94,8 @@
     "tab.inactiveBackground":"#272B2E",
 
     "terminal.background": "#242526",
-    "terminal.foreground": "#ffffffa6",
-    "terminal.selectionBackground": "#00498ca6",
+    "terminal.foreground": "#bbc0c4",
+    "terminal.selectionBackground": "#ffffff40",
 
     "editorGroupHeader.tabsBackground":"#272b2e",
 
