@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.10.0](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.9.0...v1.10.0) (2019-12-09)
+
+
+### Features
+
+* rename ([f974003](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/f974003674f4a270c0bc5e9e06405e33a7f40b86))
+
 ## [1.9.0](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.8.2...v1.9.0) (2019-12-09)
 
 
