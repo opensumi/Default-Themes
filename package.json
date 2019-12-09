@@ -1,12 +1,12 @@
 {
   "name": "ide-theme-defaults",
   "displayName": "IDE Dark Theme",
-  "description": "IDE Theme",
+  "description": "IDE Dark Theme",
   "categories": [
     "Themes"
   ],
   "version": "1.8.2",
-  "publisher": "cloud-ide",
+  "publisher": "kaitian",
   "engines": {
     "vscode": "*"
   },
