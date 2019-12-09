@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.8.2](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.8.0...v1.8.2) (2019-12-09)
+
+
+### Bug Fixes
+
+* terminal color ([35c1c57](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/35c1c5726aa788bcaa22e85b4b75774600d92d5d))
+
 ## [1.8.0](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.7.0...v1.8.0) (2019-11-20)
 
 
