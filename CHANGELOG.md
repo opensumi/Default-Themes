@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.9.0](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.8.2...v1.9.0) (2019-12-09)
+
+
+### Features
+
+* migrate to kaitian group ([39a17cc](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/39a17cc21a625501fe33698c1047002ca4aa6648))
+
 ### [1.8.2](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.8.0...v1.8.2) (2019-12-09)
 
 
