@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.11.0](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.10.0...v1.11.0) (2019-12-11)
+
+
+### Features
+
+* 增加 actionbar 分割线颜色 ([079c9fa](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/079c9faf69a2e39e2fa2e8e249b00cee0bb9878a))
+
+
+### Bug Fixes
+
+* status-bar color token 补齐 ([3971e8b](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/3971e8b6c7a544f2c43bfa81396c78739097b93d))
+
 ## [1.10.0](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.9.0...v1.10.0) (2019-12-09)
 
 
