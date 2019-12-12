@@ -120,7 +120,7 @@
     "statusBar.noFolderBackground": "#35393D",
     "statusBar.debuggingBackground": "#D77915",
     "statusBarItem.remoteBackground": "#6329B4",
-    "statusBarItem.hoverBackground":"#FFFFFFCC",
+    "statusBarItem.hoverBackground":"#FFFFFF1A",
     "statusBarItem.activeBackground":"#FFFFFF29",
     "kt.statusbar.offline.background": "#D21F28",
 
