@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.11.2](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.11.0...v1.11.2) (2019-12-12)
+
+
+### Bug Fixes
+
+* 修改 status hover 颜色 ([aad681a](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/aad681a624b7563a5866bcb64c6843191aadcf82))
+
 ## [1.11.0](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.10.0...v1.11.0) (2019-12-11)
 
 
