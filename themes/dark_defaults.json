@@ -124,13 +124,23 @@
     "statusBarItem.activeBackground":"#FFFFFF29",
     "kt.statusbar.offline.background": "#D21F28",
 
-    "menubar.selectionBackground":"#0000001a",
-    "menu.background":"#333A40",
-    "menu.foreground":"#FFFFFFA6",
-    "menu.selectionBackground":"#FFFFFF14",
-    "menu.separatorBackground":"#ffffff0d",
-    "kt.menubar.border": "#16181a",
-    "kt.menu.descriptionForeground": "#ffffff73",
+    // menubar
+    "kt.menubar.foreground": "#D7DBDE",
+    "kt.menubar.background": "#35393D",
+    "menubar.selectionForeground": "#FFFFFF",
+    "menubar.selectionBackground": "#2C3033",
+    "kt.menubar.separatorBackground": "#00000040",
+    "kt.menubar.border": "#252729",
+
+    // menu
+    "menu.background": "#2C3033",
+    "menu.foreground": "#D7DBDE",
+    "menu.separatorBackground": "#43484D",
+    "menu.selectionBackground": "#5F656B40",
+    "menu.selectionForeground": "#FFFFFF",
+    "kt.menu.disableForeground": "#5F656B",
+    "kt.menu.descriptionForeground": "#868C91",
+    // kt.menu.shadow
 
     "list.activeSelectionBackground":"#00498C",
     "list.hoverBackground":"#43494E",
