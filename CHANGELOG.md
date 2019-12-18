@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.12.1](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.12.0...v1.12.1) (2019-12-18)
+
+
+### Bug Fixes
+
+* 插件市场 ui 治理 ([b406456](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/b4064568b9e49e4ea12176e1c81ea0b08d2e640c))
+
 ## [1.12.0](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.11.2...v1.12.0) (2019-12-14)
 
 
