@@ -48,6 +48,10 @@
     "kt.danger.button.background": "#FF4D4F",
     "kt.danger.button.hoverBackground": "#FF7673",
 
+    "kt.modal.foreground": "#D7DBDE",
+    "kt.modal.background": "#35393D",
+    "kt.modal.separatorBackground": "#2C3033",
+
     "input.placeholderForeground": "#ffffff40",
     "inputOption.activeBorder": "#00488C",
     "inputValidation.errorBorder": "#FF4D4F",
