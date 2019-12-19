@@ -55,7 +55,6 @@
     "input.foreground": "#ffffffa6",
     "input.background": "#16181A",
     "kt.inputOption.hoverBorder": "#0070D9",
-    "checkbox.background": "#16181A",
 
     "dropdown.background": "#333A40",
     "dropdown.listBackground": "#333A40",
@@ -71,7 +70,7 @@
     "notifications.foreground": "#ffffffa6",
     "notificationCenterHeader.foreground": "#ffffff73",
 
-    "checkbox.background": "#0070D9",
+    "checkbox.background": "#16181A",
     "checkbox.border": "#16181A",
     "settings.checkboxBackground": "#0070D9",
     "settings.checkboxBorder": "#16181A",
