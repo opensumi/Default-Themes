@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.12.3](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.12.2...v1.12.3) (2019-12-19)
+
+
+### Bug Fixes
+
+* update checkbox.background ([e0fe1cc](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/e0fe1cc34049f7dd0082535873dbcbb458f11d19))
+
 ### [1.12.2](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.12.1...v1.12.2) (2019-12-19)
 
 
