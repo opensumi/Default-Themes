@@ -2,6 +2,7 @@
   "$schema":"vscode://schemas/color-theme",
   "name":"Dark Default Colors",
   "colors":{
+    "activityBar.activeBorder": "#167CDB",
     "foreground": "#ffffffa6",
     "descriptionForeground": "#ffffff73",
 
@@ -167,6 +168,6 @@
 
     "kt.notificationsCloseIcon.foreground": "#ffffff73",
 
-    "kt.actionbar.separatorBackground": "#00000040",
+    "kt.actionbar.separatorBackground": "#00000040"
   }
 }
