@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.13.0](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.12.3...v1.13.0) (2019-12-25)
+
+
+### Features
+
+* 新增 actionbar and welcomePage token ([bdd9e05](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/bdd9e05c1391e8ed90660721b6611783ac22cab6))
+
 ### [1.12.3](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.12.2...v1.12.3) (2019-12-19)
 
 
