@@ -10,6 +10,7 @@
 ### 主题包打包
 
 ```shell
+$ npm run release
 $ tnpm i -g @alipay/cloud-ide-ext-vscode-extension-builder
 $ builder zip . .. .builderignore
 ```
