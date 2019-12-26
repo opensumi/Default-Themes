@@ -142,7 +142,7 @@
     "kt.menubar.border": "#252729",
 
     // menu
-    "menu.background": "#2C3033",
+    "menu.background": "#35393D",
     "menu.foreground": "#D7DBDE",
     "menu.separatorBackground": "#43484D",
     "menu.selectionBackground": "#5F656B40",
