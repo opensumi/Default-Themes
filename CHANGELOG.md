@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.14.0](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.13.2...v1.14.0) (2019-12-26)
+
+
+### Features
+
+* 更新 menu 颜色 ([b2307a1](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/b2307a19fbc11269f184696c0720f654c8ea1e9b))
+
 ### [1.13.2](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.13.1...v1.13.2) (2019-12-26)
 
 ### [1.13.1](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.13.0...v1.13.1) (2019-12-25)
