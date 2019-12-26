@@ -2,7 +2,6 @@
   "$schema":"vscode://schemas/color-theme",
   "name":"Dark Default Colors",
   "colors":{
-    "activityBar.activeBorder": "#167CDB",
     "foreground": "#ffffffa6",
     "descriptionForeground": "#ffffff73",
 
@@ -63,7 +62,7 @@
 
     "badge.background": "#ffffff14",
     "badge.foreground": "#FFFFFF",
-    "activityBarBadge.background": "#0070D9",
+    "activityBarBadge.background": "#167CDB",
     "activityBarBadge.foreground": "#FFFFFF",
 
     "notifications.background": "#2B2F33",
@@ -80,8 +79,11 @@
     "breadcrumbPicker.background": "#333A40",
 
     "activityBar.foreground":"#FFFFFF",
-    "activityBar.background":"#333A40",
-    "activityBar.inactiveForeground":"#FFFFFF73",
+    "activityBar.background":"#35393D",
+    "activityBar.activeForeground":"#FFFFFF",
+    "activityBar.inactiveForeground":"#868C91",
+    "activityBar.activeBorder": "#167CDB",
+    "activityBar.border": "#252729",
 
     "sideBar.background":"#2C3033",
     "sideBar.border": "#252729",
