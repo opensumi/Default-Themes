@@ -89,7 +89,7 @@
     "sideBar.border": "#252729",
     "sideBarTitle.foreground":"#FFFFFF",
     "sideBarSectionHeader.foreground": "#ffffff",
-    "sideBarSectionHeader.background": "#ffffff1a",
+    "sideBarSectionHeader.background": "#43484D",
     "kt.sideBarTitle.activeBorder": "#167CDB",
 
     "kt.sideBarList.foreground": "#D7DBDE",
@@ -158,12 +158,19 @@
     "list.inactiveFocusBackground": "#1D2F40",
 
     "panel.background":"#242526",
-    "panel.border": "#ffffff00",
+    "panel.border": "#43484D",
     "panelTitle.activeBorder":"#00498c",
     "panelTitle.activeForeground": "#ffffffd9",
     "panelTitle.inactiveForeground": "#ffffffa6",
     "panelInput.border":"#00488c",
-    "kt.panelTitle.background": "#272B2E",
+    "kt.panelTitle.background": "#2C3033",
+    "kt.panelTab.inactiveForeground": "#D7DBDE",
+    "kt.panelTab.inactiveBackground": "#35393D",
+    "kt.panelTab.activeForeground": "#FFFFFF",
+    "kt.panelTab.activeBackground": "#202224",
+    "kt.panelTab.border": "#2C3033",
+    "kt.panelTabActionIcon.foreground": "#BBC0C4",
+    "kt.panel.secondaryForeground": "#868C91",
 
     "kt.tooltip.background": "#4C5359",
     "kt.tooltip.foreground": "#ffffffd9",
@@ -178,5 +185,6 @@
 
     "welcomePage.background": "#202224",
     "walkThrough.embeddedEditorBackground": "#00000040",
+    "kt.sideBarSectionHeaderArrow.foreground": "#868C91",
   }
 }
