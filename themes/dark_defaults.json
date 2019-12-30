@@ -99,16 +99,16 @@
 
     "tab.activeBackground":"#242526",
     "tab.activeForeground":"#FFFFFF",
-    "tab.inactiveForeground":"#FFFFFFA6",
-    "tab.inactiveBackground":"#272B2E",
+    "tab.inactiveForeground":"#D7DBDE",
+    "tab.inactiveBackground":"#2C3033",
 
     "terminal.background": "#242526",
     "terminal.foreground": "#bbc0c4",
     "terminal.selectionBackground": "#ffffff40",
 
-    "editorGroupHeader.tabsBackground":"#272b2e",
+    "editorGroupHeader.tabsBackground":"#2C3033",
 
-    "editor.background":"#242526",
+    "editor.background":"#202224",
     "editor.foreground":"#B2B2B3",
     "editor.findMatchHighlightBackground": "#fa541c40",
     "diffEditor.insertedTextBackground": "#00d96d40",
