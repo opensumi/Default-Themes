@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.15.0](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.14.0...v1.15.0) (2020-01-02)
+
+
+### Features
+
+* 新增 modal 组件 color tokens ([5725074](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/572507488a52c3dc68e240ea55623615dbb62b80))
+
 ## [1.14.0](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.13.2...v1.14.0) (2019-12-26)
 
 
