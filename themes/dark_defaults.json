@@ -70,8 +70,8 @@
     "dropdown.foreground": "#ffffffa6",
     // "dropdown.border": "#ff0000",
 
-    "badge.background": "#ffffff14",
-    "badge.foreground": "#FFFFFF",
+    "badge.background": "#5f656b80",
+    "badge.foreground": "#bbc0c4",
     "activityBarBadge.background": "#167CDB",
     "activityBarBadge.foreground": "#FFFFFF",
 
@@ -129,7 +129,7 @@
     "kt.sideBarTitle.activeBorder": "#167CDB",
 
     "kt.sideBarList.foreground": "#D7DBDE",
-    "kt.sideBarList.secondaryForeground": "#868C91",
+    "kt.sideBarList.secondaryForeground": "#D7DBDE",
     "kt.sideBarList.hoverForeground": "#5F656B40",
     "kt.sideBarList.selectionBackground": "#1A66AC",
 
@@ -202,7 +202,7 @@
     "kt.panelTitle.background": "#2C3033",
     "kt.panelTab.inactiveForeground": "#D7DBDE",
     "kt.panelTab.inactiveBackground": "#35393D",
-    "kt.panelTab.activeForeground": "#FFFFFF",
+    "kt.panelTab.activeForeground": "#167CDB",
     "kt.panelTab.activeBackground": "#202224",
     "kt.panelTab.border": "#2C3033",
     "kt.panelTabActionIcon.foreground": "#BBC0C4",
