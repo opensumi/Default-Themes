@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.16.1](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.16.0...v1.16.1) (2020-01-14)
+
+
+### Bug Fixes
+
+* panel token ([d5f66ac](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/d5f66acdee757ba1dd062c806429efe42f7b8665))
+
 ## [1.16.0](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.15.0...v1.16.0) (2020-01-08)
 
 
