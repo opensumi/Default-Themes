@@ -120,6 +120,7 @@
     "activityBar.inactiveForeground":"#868C91",
     "activityBar.activeBorder": "#167CDB",
     "activityBar.border": "#252729",
+    "activityBar.borderDown": "#2C3033",
 
     "sideBar.background":"#2C3033",
     "sideBar.border": "#252729",
@@ -187,11 +188,13 @@
     "kt.menu.descriptionForeground": "#868C91",
     // kt.menu.shadow
 
-    "list.activeSelectionBackground":"#00498C",
+    "list.activeSelectionBackground":"#1A66AC",
     "list.hoverBackground":"#43494E",
     // 待更新，选中但不 focus 时
     "list.inactiveSelectionBackground": "#1D2F40",
     "list.inactiveFocusBackground": "#1D2F40",
+    "list.activeSelectionForeground": "#ffffff",
+    "list.inactiveSelectionForeground": "#D7DBDE",
 
     "panel.background":"#242526",
     "panel.border": "#43484D",
