@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.16.2](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.16.1...v1.16.2) (2020-01-15)
+
+
+### Bug Fixes
+
+* preference设置面板的颜色调整 ([4ee0087](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/4ee0087f332677dc0780ecc9e46fc6a0a5e6fb1e))
+
 ### [1.16.1](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.16.0...v1.16.1) (2020-01-14)
 
 
