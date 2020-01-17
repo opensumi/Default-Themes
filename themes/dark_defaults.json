@@ -134,7 +134,7 @@
     "kt.sideBarList.hoverForeground": "#5F656B40",
     "kt.sideBarList.selectionBackground": "#1A66AC",
 
-    "tab.activeBackground":"#242526",
+    "tab.activeBackground":"#202224",
     "tab.activeForeground":"#FFFFFF",
     "tab.inactiveForeground":"#D7DBDE",
     "tab.inactiveBackground":"#2C3033",
