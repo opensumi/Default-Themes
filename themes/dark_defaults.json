@@ -138,6 +138,7 @@
     "tab.activeForeground":"#FFFFFF",
     "tab.inactiveForeground":"#D7DBDE",
     "tab.inactiveBackground":"#2C3033",
+    "tab.activeBorder":"#167CDB",
 
     "terminal.background": "#242526",
     "terminal.foreground": "#bbc0c4",
