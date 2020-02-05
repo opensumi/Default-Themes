@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.17.1](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.16.0...v1.17.1) (2020-01-21)
+
+
+### Bug Fixes
+
+* 标题颜色修改，新增dropUp颜色 ([d417dd4](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/d417dd43a4054fac586ed08ac3837fd1d35c9490))
+
 ## [1.17.0](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.16.1...v1.17.0) (2020-01-15)
 
 
