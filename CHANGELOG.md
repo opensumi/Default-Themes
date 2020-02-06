@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.18.0](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.16.1...v1.18.0) (2020-02-06)
+
+
+### Features
+
+* add color tokens ([7ab6351](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/7ab6351673eaadca6b8a915f95e550f1a7b85ba7))
+* 添加遗漏的tabs.activeBackground ([c378f0d](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/c378f0dc676dfae59761740350ce75709a7bd962))
+
+
+### Bug Fixes
+
+* preference设置面板的颜色调整 ([4ee0087](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/4ee0087f332677dc0780ecc9e46fc6a0a5e6fb1e))
+* tab.activeBorder定义一下 ([805699f](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/805699f9d667fb8edf52a338a3b7744787f913e1))
+* 标题颜色修改，新增dropUp颜色 ([8381be3](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/8381be3812586bf150fdd4bab3acd52053bd2b17))
+
 ### [1.17.1](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.16.0...v1.17.1) (2020-01-21)
 
 
