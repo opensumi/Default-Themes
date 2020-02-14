@@ -1,5 +1,4 @@
 const fs = require('fs')
-const path = require('path')
 const lessToJs = require('less-vars-to-js')
 const Color = require('color')
 
@@ -10,12 +9,8 @@ function convertDashToKebab(str) {
   return str.replace(/-/g, '_')
 }
 
-function getPaletteDesc(theme = 'dark') {
-  const targetThemeLessPath = path.resolve(
-    __dirname,
-    `../palette/${theme}.less`
-  )
-  const paletteLess = fs.readFileSync(targetThemeLessPath, 'utf8')
+function getPaletteDesc(palettePath) {
+  const paletteLess = fs.readFileSync(palettePath, 'utf8')
   const platte = lessToJs(paletteLess, {
     resolveVariables: true,
     stripPrefix: true

@@ -11,9 +11,22 @@
     "vscode": "*"
   },
   "scripts": {
+    "build": "rm -rf ../ide-theme.zip && builder zip . .. .builderignore",
     "generate": "node scripts/index.js",
     "release": "standard-version"
   },
+  "ideThemeConfig": [
+    {
+      "id": "ide-dark",
+      "category": "dark",
+      "palette": "./palette/dark.less"
+    },
+    {
+      "id": "ide-light",
+      "category": "light",
+      "palette": "./palette/light.less"
+    }
+  ],
   "contributes": {
     "themes": [
       {
@@ -21,6 +34,12 @@
         "label": "IDE Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/dark/plus.json"
+      },
+      {
+        "id": "ide-light",
+        "label": "IDE Light",
+        "uiTheme": "vs",
+        "path": "./themes/light/plus.json"
       }
     ]
   },
@@ -62,6 +81,7 @@
     "lint-staged": "^10.0.7",
     "prettier": "1.19.1",
     "prettier-config-standard": "^1.0.1",
+    "read-pkg": "^5.2.0",
     "standard-version": "^7.0.0",
     "strip-json-comments": "^3.0.1"
   }
