@@ -7,6 +7,8 @@ const Hbs = require('handlebars')
 const isColor = require('is-color')
 const Color = require('color')
 
+const pkg = require('../package.json')
+
 const {
   convertDashToKebab,
   getPaletteDesc,
@@ -14,20 +16,20 @@ const {
   opacity
 } = require('./utils')
 
-const templateJson = fs.readFileSync(
-  path.resolve(__dirname, '../templates/dark/defaults.json'),
-  {
-    encoding: 'utf8'
-  }
-)
-
 Hbs.registerHelper('opacity', opacity)
 
-async function bootstrap() {
+async function bootstrap(uid, plattePath, category) {
   try {
+    const templateJson = fs.readFileSync(
+      path.resolve(__dirname, `../templates/${uid}/defaults.json`),
+      {
+        encoding: 'utf8'
+      }
+    )
+
     const content = stripJsonComments(templateJson)
     const obj = json5.parse(content)
-    obj.name = 'plaplapla'
+    obj.name = `Dark Default Colors`
     Object.entries(obj.colors).forEach(([key, val]) => {
       const value = val.trim()
       // 跳过色值, 只处理 token
@@ -45,11 +47,11 @@ async function bootstrap() {
     })
 
     const templateFn = Hbs.compile(JSON.stringify(obj))
-    const platte = getPaletteDesc('dark')
+    const platte = getPaletteDesc(plattePath)
     const text = templateFn(platte)
 
     fs.writeFileSync(
-      path.resolve(__dirname, '../themes/dark/defaults.json'),
+      path.resolve(__dirname, `../themes/${category}/defaults.json`),
       jsonPretty(text),
       {
         encoding: 'utf8'
@@ -60,4 +62,12 @@ async function bootstrap() {
   }
 }
 
-bootstrap()
+pkg.ideThemeConfig.forEach(themeConfig => {
+  const { id, palette, category } = themeConfig
+  if (id === 'ide-light') {
+    const plattePath = path.join(process.cwd(), palette)
+    // 移除 ide- 前缀作为 uid
+    const uid = id.replace(/^ide-/, '')
+    bootstrap(uid, plattePath, category)
+  }
+})
