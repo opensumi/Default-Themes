@@ -1,0 +1,1 @@
+{"$schema":"vscode://schemas/color-theme","name":"plaplapla","colors":{"foreground":"<% _.opacity(ide_gray_1, 25); %>","descriptionForeground":"<%= ide_gray_1 %>"}}
