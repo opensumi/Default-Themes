@@ -1,0 +1,8 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "plaplapla",
+  "colors": {
+    "foreground": "#404040",
+    "descriptionForeground": "#000"
+  }
+}
