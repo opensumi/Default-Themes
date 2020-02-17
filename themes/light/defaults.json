@@ -3,7 +3,7 @@
   "name": "Dark Default Colors",
   "colors": {
     "foreground": "#FFFFFFA6",
-    "descriptionForeground": "#fff",
+    "descriptionForeground": "#FFFFFF",
     "textSeparator.foreground": "#16181A",
     "widget.shadow": "#00000073",
     "selection.background": "#00488C",

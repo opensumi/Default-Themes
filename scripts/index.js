@@ -64,10 +64,8 @@ async function bootstrap(uid, plattePath, category) {
 
 pkg.ideThemeConfig.forEach(themeConfig => {
   const { id, palette, category } = themeConfig
-  if (id === 'ide-light') {
-    const plattePath = path.join(process.cwd(), palette)
-    // 移除 ide- 前缀作为 uid
-    const uid = id.replace(/^ide-/, '')
-    bootstrap(uid, plattePath, category)
-  }
+  const plattePath = path.join(process.cwd(), palette)
+  // 移除 ide- 前缀作为 uid
+  const uid = id.replace(/^ide-/, '')
+  bootstrap(uid, plattePath, category)
 })

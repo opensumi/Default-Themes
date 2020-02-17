@@ -2,8 +2,8 @@
   "$schema": "vscode://schemas/color-theme",
   "name": "Dark Default Colors",
   "colors": {
-    "foreground": "ide-gray-1, 65",
-    "descriptionForeground": "ide-gray-1",
+    "foreground": "light-idegrey-1, 65",
+    "descriptionForeground": "light-idegrey-1",
 
     "textSeparator.foreground": "#16181A",
 
