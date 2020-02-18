@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.19.1](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.18.0...v1.19.1) (2020-02-18)
+
+
+### Bug Fixes
+
+* remove tab.activeBorder ([8a7bf11](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/8a7bf11b793808b35ff6416a392ac9a7f6c514dd))
+* update descriptionForeground ([a21662c](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/a21662c214c37ee69dffa32a23c921c46e9591c3))
+
 ## [1.19.0](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.16.1...v1.19.0) (2020-02-12)
 
 
