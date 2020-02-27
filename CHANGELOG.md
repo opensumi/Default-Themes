@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.19.3](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.19.1...v1.19.3) (2020-02-27)
+
+
+### Bug Fixes
+
+* review编辑器颜色 ([afe7948](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/afe7948bbda6cf07eb30474869913210ce062883))
+
 ### [1.19.2](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.19.1...v1.19.2) (2020-02-27)
 
 
