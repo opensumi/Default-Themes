@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.19.2](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.19.1...v1.19.2) (2020-02-27)
+
 ### [1.19.1](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.18.0...v1.19.1) (2020-02-18)
 
 
