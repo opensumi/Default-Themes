@@ -1,5 +1,6 @@
 const fs = require('fs')
 const path = require('path')
+const _ = require('lodash')
 
 const json5 = require('json5')
 const stripJsonComments = require('strip-json-comments')
@@ -18,38 +19,21 @@ const {
 
 Hbs.registerHelper('opacity', opacity)
 
-async function bootstrap(uid, plattePath, category) {
-  try {
-    const templateJson = fs.readFileSync(
-      path.resolve(__dirname, `../templates/${uid}/defaults.json`),
-      {
-        encoding: 'utf8'
-      }
-    )
+const regexp = /(\w+)\((.+(,.+)?)\)/
 
-    const content = stripJsonComments(templateJson)
-    const obj = json5.parse(content)
-    obj.name = `Dark Default Colors`
-    Object.entries(obj.colors).forEach(([key, val]) => {
-      const value = val.trim()
-      // 跳过色值, 只处理 token
-      if (isColor(value)) {
-        return Color(value).hex()
-      }
+class JsonProcess {
+  async start(uid, plattePath, category) {
+    try {
+      const colorDesc = this.readTemplateJson(uid)
+      const objDesc = this.evaluate(uid, colorDesc)
+      const text = this.compile(objDesc, plattePath)
+      this.writeJsonFile(text, category)
+    } catch (err) {
+      console.log(err)
+    }
+  }
 
-      if (value.includes(',')) {
-        const [tokenStr, opacity] = value.split(',')
-        const token = convertDashToKebab(tokenStr.trim())
-        obj.colors[key] = `{{ opacity ${token} ${Number(opacity)} }}`
-      } else {
-        obj.colors[key] = `{{ ${convertDashToKebab(value)} }}`
-      }
-    })
-
-    const templateFn = Hbs.compile(JSON.stringify(obj))
-    const platte = getPaletteDesc(plattePath)
-    const text = templateFn(platte)
-
+  writeJsonFile(text, category) {
     fs.writeFileSync(
       path.resolve(__dirname, `../themes/${category}/defaults.json`),
       jsonPretty(text),
@@ -57,8 +41,61 @@ async function bootstrap(uid, plattePath, category) {
         encoding: 'utf8'
       }
     )
-  } catch (err) {
-    console.log(err)
+  }
+
+  compile(desc, plattePath) {
+    const templateFn = Hbs.compile(JSON.stringify(desc))
+    const platte = getPaletteDesc(plattePath)
+    const text = templateFn(platte)
+    return text
+  }
+
+  evaluate(uid, colorDesc) {
+    const result = {
+      $schema: 'vscode://schemas/color-theme',
+      name: `${_.upperFirst(uid)} Default Colors`,
+      colors: {}
+    }
+    Object.entries(colorDesc).forEach(([key, val]) => {
+      const value = val.trim()
+      // 跳过色值, 只处理 token
+      if (isColor(value)) {
+        return Color(value).hex()
+      }
+
+      if (regexp.test(value)) {
+        const [, funcStr, argsStr] = regexp.exec(value)
+        const func = funcStr.trim()
+        const args = argsStr
+          .trim()
+          .split(',')
+          .map(n => (n ? n.trim() : ''))
+          .filter(n => n)
+        switch (func) {
+          case 'opacity':
+            result.colors[key] = this.handleOpacity(args)
+        }
+      } else {
+        result.colors[key] = `{{ ${convertDashToKebab(value)} }}`
+      }
+    })
+    return result
+  }
+
+  readTemplateJson(uid) {
+    const templateJson = fs.readFileSync(
+      path.resolve(__dirname, `../templates/${uid}/defaults.json`),
+      {
+        encoding: 'utf8'
+      }
+    )
+    const content = stripJsonComments(templateJson)
+    const obj = json5.parse(content)
+    return obj
+  }
+
+  handleOpacity(args) {
+    return `{{ opacity ${convertDashToKebab(args[0])} ${Number(args[1])} }}`
   }
 }
 
@@ -67,5 +104,6 @@ pkg.ideThemeConfig.forEach(themeConfig => {
   const plattePath = path.join(process.cwd(), palette)
   // 移除 ide- 前缀作为 uid
   const uid = id.replace(/^ide-/, '')
-  bootstrap(uid, plattePath, category)
+  const jsonProcess = new JsonProcess()
+  jsonProcess.start(uid, plattePath, category)
 })

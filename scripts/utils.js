@@ -5,7 +5,7 @@ const Color = require('color')
 const hexTransparencyMap = require('./hex-transparency-map')
 
 function convertDashToKebab(str) {
-  // convert dash to kebab
+  // convert dash to kebab to make lodash.template works
   return str.replace(/-/g, '_')
 }
 
