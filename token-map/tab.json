@@ -1,0 +1,26 @@
+{
+  "kt.tab.activeForeground": [
+    "dark-idegrey-10",
+    "light-idegrey-10"
+  ],
+  "kt.tab.inactiveForeground": [
+    "dark-idegrey-9",
+    "light-idegrey-9"
+  ],
+  "kt.tab.activeBorder": [
+    "dark-ideblue-6",
+    "light-ideblue-6"
+  ],
+  "kt.tab.borderDown": [
+    "opacity(dark-idegrey-6,25)",
+    "opacity(light-idegrey-6,25)"
+  ],
+  "badge.foreground": [
+    "dark-idegrey-7",
+    "light-idegrey-7"
+  ],
+  "badge.background": [
+    "opacity(dark-idegrey-6,25)",
+    "opacity(light-idegrey-6,25)"
+  ]
+}

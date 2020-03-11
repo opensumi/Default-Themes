@@ -1,4 +1,5 @@
 const fs = require('fs')
+
 const lessToJs = require('less-vars-to-js')
 const Color = require('color')
 
@@ -22,8 +23,12 @@ function getPaletteDesc(palettePath) {
   }, {})
 }
 
-function jsonPretty(jsonStr) {
-  return JSON.stringify(JSON.parse(jsonStr), null, 2)
+function jsonPretty(obj) {
+  return JSON.stringify(obj, null, 2)
+}
+
+function jsonStrPretty(jsonStr) {
+  return jsonPretty(JSON.parse(jsonStr))
 }
 
 function opacity(hex, transparency = 100) {
@@ -34,6 +39,7 @@ function opacity(hex, transparency = 100) {
 module.exports = {
   convertDashToKebab,
   getPaletteDesc,
+  jsonStrPretty,
   jsonPretty,
   opacity
 }

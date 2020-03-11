@@ -1,6 +1,9 @@
 const path = require('path')
 const fs = require('fs')
-const yuqueTokenMap = require('./yuque-map')
+
+const getYuqueTokenMap = require('./yuque-token-map')
+
+const yuqueTokenMap = getYuqueTokenMap()
 
 function updateFile(uid, themeDesc) {
   const targetFile = path.resolve(

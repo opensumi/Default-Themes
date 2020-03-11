@@ -13,7 +13,7 @@ const pkg = require('../package.json')
 const {
   convertDashToKebab,
   getPaletteDesc,
-  jsonPretty,
+  jsonStrPretty,
   opacity
 } = require('./utils')
 
@@ -36,7 +36,7 @@ class JsonProcess {
   writeJsonFile(text, category) {
     fs.writeFileSync(
       path.resolve(__dirname, `../themes/${category}/defaults.json`),
-      jsonPretty(text),
+      jsonStrPretty(text),
       {
         encoding: 'utf8'
       }
