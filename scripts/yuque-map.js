@@ -39,7 +39,7 @@ module.exports = Object.assign(
     'kt.dangerButton.background': ['dark-red-7', 'light-red-5'],
     'kt.dangerButton.hoverBackground': ['dark-red-8', 'light-red-4'],
     'kt.dangerButton.clickBackground': ['dark-red-6', 'light-red-6'],
-    'kt.primaryButton.foreground': ['dark-idegrey-13', 'light-idegrey-1'],
+    'kt.primaryButton.foreground': ['dark-idegrey-10', 'light-idegrey-1'],
     'kt.primaryButton.background': ['dark-ideblue-6', 'light-ideblue-6'],
     'kt.primaryButton.hoverBackground': ['dark-ideblue-7', 'light-ideblue-5'],
     'kt.primaryButton.clickBackground': ['dark-ideblue-5', 'light-ideblue-7'],

@@ -111,7 +111,7 @@
     "kt.panelTitle.background": "#2C3033",
     "kt.primaryButton.background": "#167CDB",
     "kt.primaryButton.clickBackground": "#1A66AC",
-    "kt.primaryButton.foreground": "",
+    "kt.primaryButton.foreground": "#FFFFFF",
     "kt.primaryButton.hoverBackground": "#3895EB",
     "kt.primaryGhostButton.border": "#3895EB",
     "kt.primaryGhostButton.clickBorder": "#167CDB",
