@@ -1,0 +1,34 @@
+{
+  "checkbox.background": [
+    "opacity(dark-black,25)",
+    "light-idegrey-1"
+  ],
+  "checkbox.border": [
+    "-",
+    "light-idegrey-5"
+  ],
+  "kt.checkbox.hoverBorder": [
+    "dark-ideblue-6",
+    "light-ideblue-6"
+  ],
+  "kt.checkbox.selectionForeground": [
+    "dark-idegrey-10",
+    "light-idegrey-1"
+  ],
+  "kt.checkbox.selectionBackground": [
+    "dark-ideblue-6",
+    "light-ideblue-6"
+  ],
+  "checkbox.selectionAllForeground": [
+    "dark-ideblue-6",
+    "light-ideblue-6"
+  ],
+  "kt.checkbox.disableForeground": [
+    "dark-idegrey-6",
+    "light-idegrey-6"
+  ],
+  "kt.checkbox.disableBackground": [
+    "opacity(dark-idegrey-6,25)",
+    "opacity(light-idegrey-6,25)"
+  ]
+}

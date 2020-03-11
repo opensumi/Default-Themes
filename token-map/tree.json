@@ -1,0 +1,18 @@
+{
+  "tree.foreground": [
+    "dark-idegrey-9",
+    "light-idegrey-9"
+  ],
+  "tree.secondaryForeground": [
+    "dark-idegrey-7",
+    "light-idegrey-7"
+  ],
+  "tree.hoverBackground": [
+    "opacity(dark-idegrey-6,25)",
+    "opacity(light-idegrey-6,25)"
+  ],
+  "tree.selectionBackground": [
+    "dark-ideblue-5",
+    "light-ideblue-7"
+  ]
+}

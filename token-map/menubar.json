@@ -1,0 +1,66 @@
+{
+  "kt.menubar.foreground": [
+    "dark-idegrey-9",
+    "light-idegrey-9"
+  ],
+  "kt.menubar.background": [
+    "dark-idegrey-4",
+    "light-idegrey-3"
+  ],
+  "menubar.selectionForeground": [
+    "dark-idegrey-10",
+    "light-idegrey-10"
+  ],
+  "menubar.selectionBackground": [
+    "dark-idegrey-3",
+    "light-idegrey-5"
+  ],
+  "menubar.selectionBorder": [
+    "-",
+    "-"
+  ],
+  "kt.menubar.separatorBackground": [
+    "opacity(dark-idegrey-6,25)",
+    "opacity(light-idegrey-6,25)"
+  ],
+  "kt.menubar.border": [
+    "dark-idegrey-2",
+    "light-idegrey-5"
+  ],
+  "": [
+    "",
+    ""
+  ],
+  "menu.background": [
+    "dark-idegrey-4",
+    "light-idegrey-1"
+  ],
+  "menu.foreground": [
+    "dark-idegrey-9",
+    "light-idegrey-9"
+  ],
+  "menu.separatorBackground": [
+    "dark-idegrey-5",
+    "light-idegrey-5"
+  ],
+  "menu.selectionBackground": [
+    "opacity(dark-idegrey-6,25)",
+    "opacity(light-idegrey-6,25)"
+  ],
+  "menu.selectionForeground": [
+    "dark-idegrey-10",
+    "light-idegrey-10"
+  ],
+  "kt.menu.disableForeground": [
+    "dark-idegrey-6",
+    "light-idegrey-6"
+  ],
+  "kt.menu.descriptionForeground": [
+    "dark-idegrey-7",
+    "light-idegrey-7"
+  ],
+  "kt.menu.shadow": [
+    "",
+    ""
+  ]
+}
