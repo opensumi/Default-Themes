@@ -108,7 +108,7 @@
   "kt.panelTitle.background": "dark-idegrey-3",
   "kt.primaryButton.background": "dark-ideblue-6",
   "kt.primaryButton.clickBackground": "dark-ideblue-5",
-  "kt.primaryButton.foreground": "dark-idegrey-13",
+  "kt.primaryButton.foreground": "dark-idegrey-10",
   "kt.primaryButton.hoverBackground": "dark-ideblue-7",
   "kt.primaryGhostButton.border": "dark-ideblue-7",
   "kt.primaryGhostButton.clickBorder": "dark-ideblue-6",

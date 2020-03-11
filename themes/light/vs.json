@@ -1,7 +1,7 @@
 {
 	"$schema": "vscode://schemas/color-theme",
 	"name": "Light (Visual Studio)",
-	"include": "./light_defaults.json",
+	"include": "./defaults.json",
 	"tokenColors": [
 		{
 			"scope": ["meta.embedded", "source.groovy.embedded"],
