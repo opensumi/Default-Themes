@@ -2,6 +2,7 @@ const path = require('path')
 const fs = require('fs')
 const { promisify } = require('util')
 
+const username = require('git-user-name')
 const got = require('got')
 const cheerio = require('cheerio')
 
@@ -30,6 +31,11 @@ class CrawlProcess {
   async start() {
     const promises = docSlugs.map(slug => this.fetchBodyHtml(slug))
     await Promise.all(promises)
+    await fsWriteFile(
+      path.resolve(TARGET_DIR, '_timestamp.txt'),
+      `Updated by ${username()} at ${new Date().toString()}`,
+      {}
+    )
   }
 
   async fetchBodyHtml(slug) {
