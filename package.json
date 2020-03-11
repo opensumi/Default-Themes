@@ -12,6 +12,7 @@
   },
   "scripts": {
     "build": "rm -rf ../ide-theme.zip && builder zip . .. .builderignore",
+    "update": "node scripts/update-theme-template.js",
     "generate": "node scripts/index.js",
     "release": "standard-version"
   },
