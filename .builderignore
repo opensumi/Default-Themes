@@ -7,3 +7,4 @@ templates
 .editorconfig
 .eslintrc.json
 .prettierrc
+.npmrc
