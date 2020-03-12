@@ -16,7 +16,8 @@
     "update:theme-template": "node scripts/update-theme-template.js",
     "update:theme-json": "node scripts/index.js",
     "update": "npm run update:token-map && npm run update:theme-template && npm run update:theme-json",
-    "release": "standard-version"
+    "release": "standard-version",
+    "postrelease": "npm run build"
   },
   "ideThemeConfig": [
     {
