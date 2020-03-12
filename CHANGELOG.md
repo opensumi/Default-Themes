@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0-alpha.0](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.19.3...v2.0.0-alpha.0) (2020-03-12)
+
+
+### Features
+
+* add copy-from-yuque.browser.js ([b79eb1a](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/b79eb1ae5c0a09e4e8aecc360fed39cf79cfb414))
+* add palette ([a06f602](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/a06f60286dacab17003e89c65da5ff27d53710bb))
+* add timestamp txt as version flag ([2187673](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/2187673937777f9565dfaa8f12f20ad7e4c5b4d8))
+* basic process ([bd0f1e0](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/bd0f1e0a24ef8a12158b93073e9a699d11097069))
+* enable light theme ([47d9fac](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/47d9fac435d0f242b05a287ed95091fa77f8666b))
+* finish process ([4c2ce76](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/4c2ce76c694f9bf84fe2f9fab1fbd9839e1e2632))
+* use crawl to get content from yuque ([a20bebd](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/a20bebdca3153467df11a263a36e691f1548ad6b))
+
+
+### Bug Fixes
+
+* typo ([463e813](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/463e813d6e990fe34b33f7bdbadd0829acb02faa))
+
 ### [1.19.3](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.19.1...v1.19.3) (2020-02-27)
 
 
