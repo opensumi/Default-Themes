@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0-alpha.1](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v2.0.0-alpha.0...v2.0.0-alpha.1) (2020-03-12)
+
+
+### Features
+
+* dirty check ([8a08ef5](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/8a08ef57750561a0516143faf3f74e25a4a93b4d))
+* progress support ([b8423ca](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/b8423ca05a7331c516484407f8b04381c6682343))
+* update ([b3ae0f6](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/b3ae0f65eacb85c552e649912f649a56c9d5673f))
+
+
+### Bug Fixes
+
+* 处理删除的 issue ([79c5531](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/79c5531057a5080fb97ba966b590783f6769e21d))
+
 ## [2.0.0-alpha.0](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.19.3...v2.0.0-alpha.0) (2020-03-12)
 
 
