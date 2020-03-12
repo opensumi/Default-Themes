@@ -109,8 +109,12 @@ class CrawlProcess {
       // 跳过 del 已删除
       // 坑：yuque 网页上渲染的是 <del> 标签
       // 但是接口拿回来的是 `<span style="text-decoration: line-through;"></span>`
-      const firstTd = $tdChild.first().html()
-      if (firstTd.includes('del') || firstTd.includes('line-through')) {
+      const twoTds = [$tdChild.first().html(), $tdChild.eq(1).html()]
+      if (
+        twoTds.some(
+          html => html.includes('<del>') || html.includes('line-through')
+        )
+      ) {
         return
       }
 

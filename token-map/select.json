@@ -27,10 +27,6 @@
     "opacity(dark-idegrey-6,25)",
     "opacity(light-idegrey-6,25)"
   ],
-  "selectIcon.foreground": [
-    "dark-idegrey-6",
-    "light-idegrey-6"
-  ],
   "kt.selectDropdown.foreground": [
     "dark-idegrey-9",
     "light-idegrey-9"
