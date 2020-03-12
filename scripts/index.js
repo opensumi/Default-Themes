@@ -7,6 +7,7 @@ const stripJsonComments = require('strip-json-comments')
 const Hbs = require('handlebars')
 const isColor = require('is-color')
 const Color = require('color')
+const ora = require('ora')
 
 const pkg = require('../package.json')
 
@@ -23,12 +24,15 @@ const regexp = /(\w+)\((.+(,.+)?)\)/
 
 class JsonProcess {
   async start(uid, plattePath, category) {
+    const spinner = ora('Updating theme json files').start()
     try {
       const colorDesc = this.readTemplateJson(uid)
       const objDesc = this.evaluate(uid, colorDesc)
       const text = this.compile(objDesc, plattePath)
       this.writeJsonFile(text, category)
+      spinner.succeed('Finished updating theme json files')
     } catch (err) {
+      spinner.fail('Failed')
       console.log(err)
     }
   }
