@@ -2,14 +2,19 @@ const path = require('path')
 const fs = require('fs')
 const { promisify } = require('util')
 
+const ora = require('ora')
+const chalk = require('chalk')
 const username = require('git-user-name')
 const got = require('got')
 const cheerio = require('cheerio')
+const cgf = require('changed-git-files')
+const inquirer = require('inquirer')
 
 const { jsonPretty } = require('./utils')
 const docs = require('./docs')
 
 const fsWriteFile = promisify(fs.writeFile)
+const gitChangedFiles = promisify(cgf)
 
 const API_HOST = 'https://yuque.antfin-inc.com/api/v2'
 
@@ -26,16 +31,47 @@ const client = got.extend({
 const repoSlug = 'ide-framework/ide-token'
 const docSlugs = docs
 
+const revisionText = '_revision.txt'
+
 class CrawlProcess {
   // curl -H 'X-Auth-Token: ${token}' https://yuque.com/api/v2/repos/ide-framework/ide-token/docs/basic
   async start() {
+    const spinner = ora('Crawling content from yuque').start()
+
     const promises = docSlugs.map(slug => this.fetchBodyHtml(slug))
     await Promise.all(promises)
-    await fsWriteFile(
-      path.resolve(TARGET_DIR, '_timestamp.txt'),
-      `Updated by ${username()} at ${new Date().toString()}`,
-      {}
-    )
+
+    const files = await gitChangedFiles()
+    if (
+      files.length &&
+      files.some(
+        file =>
+          file.filename.startsWith('token-map') &&
+          !file.filename.endsWith(revisionText)
+      )
+    ) {
+      await fsWriteFile(
+        path.resolve(TARGET_DIR, revisionText),
+        `Updated by ${username()} at ${new Date().toString()}`,
+        {}
+      )
+      spinner.succeed('Finish crawling content from yuque')
+    } else {
+      spinner.succeed('No changes')
+
+      const answers = await inquirer.prompt([
+        {
+          type: 'confirm',
+          name: 'confirm',
+          message: 'There is no changes so far, will you continue to update',
+          default: false
+        }
+      ])
+      if (!answers.confirm) {
+        console.log(chalk.green('Bye bye'))
+        process.exit(0)
+      }
+    }
   }
 
   async fetchBodyHtml(slug) {
