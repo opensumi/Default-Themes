@@ -3,10 +3,6 @@
     "dark-idegrey-10",
     "light-idegrey-10"
   ],
-  "list.inactiveSelectionForeground": [
-    "dark-idegrey-9",
-    "light-idegrey-9"
-  ],
   "list.activeSelectionBackground": [
     "dark-ideblue-5",
     "light-ideblue-7"
