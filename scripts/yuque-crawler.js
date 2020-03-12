@@ -5,6 +5,7 @@ const { promisify } = require('util')
 const username = require('git-user-name')
 const got = require('got')
 const cheerio = require('cheerio')
+const isGitClean = require('is-git-clean')
 
 const { jsonPretty } = require('./utils')
 const docs = require('./docs')
@@ -26,16 +27,24 @@ const client = got.extend({
 const repoSlug = 'ide-framework/ide-token'
 const docSlugs = docs
 
+const revisionText = '_revision.txt'
+
 class CrawlProcess {
   // curl -H 'X-Auth-Token: ${token}' https://yuque.com/api/v2/repos/ide-framework/ide-token/docs/basic
   async start() {
     const promises = docSlugs.map(slug => this.fetchBodyHtml(slug))
     await Promise.all(promises)
-    await fsWriteFile(
-      path.resolve(TARGET_DIR, '_timestamp.txt'),
-      `Updated by ${username()} at ${new Date().toString()}`,
-      {}
-    )
+
+    const clean = await isGitClean(TARGET_DIR, { files: [`!${revisionText}`] })
+    if (!clean) {
+      await fsWriteFile(
+        path.resolve(TARGET_DIR, revisionText),
+        `Updated by ${username()} at ${new Date().toString()}`,
+        {}
+      )
+    } else {
+      console.log('No changes')
+    }
   }
 
   async fetchBodyHtml(slug) {
