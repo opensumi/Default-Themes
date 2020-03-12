@@ -12,10 +12,10 @@
   },
   "scripts": {
     "build": "rm -rf ../ide-theme.zip && builder zip . .. .builderignore",
-    "crawl": "node scripts/yuque-crawler.js",
-    "update": "node scripts/update-theme-template.js",
-    "generate": "node scripts/index.js",
-    "prerelease": "npm run crawl && npm run update && npm run generate",
+    "update:token-map": "node scripts/yuque-crawler.js",
+    "update:theme-template": "node scripts/update-theme-template.js",
+    "update:theme-json": "node scripts/index.js",
+    "update": "npm run update:token-map && npm run update:theme-template && npm run update:theme-json",
     "release": "standard-version"
   },
   "ideThemeConfig": [
