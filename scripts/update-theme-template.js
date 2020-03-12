@@ -1,6 +1,8 @@
 const path = require('path')
 const fs = require('fs')
 
+const ora = require('ora')
+
 const getYuqueTokenMap = require('./yuque-token-map')
 
 const yuqueTokenMap = getYuqueTokenMap()
@@ -43,9 +45,12 @@ function getThemeDesc() {
 
 function boot() {
   const ret = getThemeDesc()
+  const spinner = ora('Updating theme template content').start()
   ret.forEach(({ uid, themeDesc }) => {
     updateFile(uid, themeDesc)
   })
+
+  spinner.succeed('Finished updating theme template content')
 }
 
 boot()
