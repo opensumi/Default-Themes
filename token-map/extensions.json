@@ -1,0 +1,26 @@
+{
+  "list.activeSelectionForeground": [
+    "dark-idegrey-10",
+    "light-idegrey-1"
+  ],
+  "list.inactiveSelectionForeground": [
+    "dark-idegrey-7",
+    "light-idegrey-7"
+  ],
+  "list.hoverBackground": [
+    "opacity(dark-idegrey-6,25)",
+    "opacity(light-idegrey-6,25)"
+  ],
+  "list.activeSelectionBackground": [
+    "dark-ideblue-5",
+    "light-ideblue-7"
+  ],
+  "kt.whiteGhostButton.foreground": [
+    "dark-idegrey-10",
+    "light-idegrey-1"
+  ],
+  "kt.whiteGhostButton.border": [
+    "dark-idegrey-10",
+    "light-idegrey-1"
+  ]
+}

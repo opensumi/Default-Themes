@@ -1,0 +1,34 @@
+{
+  "statusBar.foreground": [
+    "dark-idegrey-10",
+    "light-idegrey-1"
+  ],
+  "statusBar.background": [
+    "dark-idegrey-2",
+    "light-idegrey-10"
+  ],
+  "statusBar.noFolderBackground": [
+    "dark-idegrey-5",
+    "light-idegrey-9"
+  ],
+  "statusBar.debuggingBackground": [
+    "dark-orange-6",
+    "light-orange-6"
+  ],
+  "statusBarItem.remoteBackground": [
+    "dark-purple-6",
+    "light-purple-6"
+  ],
+  "kt.statusbar.offline.background": [
+    "dark-red-7",
+    "light-red-6"
+  ],
+  "statusBarItem.hoverBackground": [
+    "opacity(white,1)",
+    "opacity(white,1)"
+  ],
+  "statusBarItem.activeBackground": [
+    "opacity(white, 25)",
+    "opacity(white, 25)"
+  ]
+}

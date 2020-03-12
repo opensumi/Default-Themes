@@ -1,0 +1,26 @@
+{
+  "list.activeSelectionForeground": [
+    "dark-idegrey-10",
+    "light-idegrey-10"
+  ],
+  "list.inactiveSelectionForeground": [
+    "dark-idegrey-9",
+    "light-idegrey-9"
+  ],
+  "list.activeSelectionBackground": [
+    "dark-ideblue-5",
+    "light-ideblue-7"
+  ],
+  "list.hoverBackground": [
+    "opacity(dark-idegrey-6,25)",
+    "opacity(light-idegrey-6,25)"
+  ],
+  "foreground": [
+    "dark-idegrey-9",
+    "light-idegrey-9"
+  ],
+  "descriptionForeground": [
+    "dark-idegrey-7",
+    "light-idegrey-7"
+  ]
+}

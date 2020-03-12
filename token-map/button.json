@@ -1,0 +1,242 @@
+{
+  "kt.dangerButton.foreground": [
+    "dark-idegrey-10",
+    "light-idegrey-1"
+  ],
+  "kt.dangerButton.background": [
+    "dark-red-7",
+    "light-red-5"
+  ],
+  "kt.dangerButton.hoverBackground": [
+    "dark-red-8",
+    "light-red-4"
+  ],
+  "kt.dangerButton.clickBackground": [
+    "dark-red-6",
+    "light-red-6"
+  ],
+  "kt.primaryButton.foreground": [
+    "dark-idegrey-10",
+    "light-idegrey-1"
+  ],
+  "kt.primaryButton.background": [
+    "dark-ideblue-6",
+    "light-ideblue-6"
+  ],
+  "kt.primaryButton.hoverBackground": [
+    "dark-ideblue-7",
+    "light-ideblue-5"
+  ],
+  "kt.primaryButton.clickBackground": [
+    "dark-ideblue-5",
+    "light-ideblue-7"
+  ],
+  "kt.dangerGhostButton.foreground": [
+    "dark-red-7",
+    "light-red-5"
+  ],
+  "kt.dangerGhostButton.border": [
+    "dark-red-7",
+    "light-red-5"
+  ],
+  "kt.dangerGhostButton.hoverForeground": [
+    "dark-red-8",
+    "light-red-4"
+  ],
+  "kt.dangerGhostButton.hoverBorder": [
+    "dark-red-8",
+    "light-red-4"
+  ],
+  "kt.dangerGhostButton.clickForeground": [
+    "dark-red-6",
+    "light-red-6"
+  ],
+  "kt.dangerGhostButton.clickBorder": [
+    "dark-red-6",
+    "light-red-6"
+  ],
+  "kt.primaryGhostButton.foreground": [
+    "dark-ideblue-7",
+    "light-ideblue-4"
+  ],
+  "": [
+    "",
+    ""
+  ],
+  "kt.primaryGhostButton.border": [
+    "dark-ideblue-7",
+    "light-ideblue-6"
+  ],
+  "kt.primaryGhostButton.clickForeground": [
+    "dark-ideblue-6",
+    "light-ideblue-7"
+  ],
+  "kt.primaryGhostButton.clickBorder": [
+    "dark-ideblue-6",
+    "light-ideblue-7"
+  ],
+  "kt.whiteGhostButton.foreground": [
+    "dark-idegrey-10",
+    "light-idegrey-1"
+  ],
+  "kt.whiteGhostButton.background": [
+    "-",
+    "-"
+  ],
+  "kt.whiteGhostButton.border": [
+    "dark-idegrey-10",
+    "light-idegrey-1"
+  ],
+  "kt.whiteGhostButton.clickForeground": [
+    "opacity(white,65)",
+    " opacity(white,65)"
+  ],
+  "kt.whiteGhostButton.clickBorder": [
+    "opacity(white,65)",
+    " opacity(white,65)"
+  ],
+  "kt.secondaryButton.foreground": [
+    "dark-idegrey-9",
+    "light-idegrey-9"
+  ],
+  "kt.secondaryButton.border": [
+    "dark-idegrey-6",
+    "light-idegrey-5"
+  ],
+  "kt.secondaryButton.hoverForeground": [
+    "dark-ideblue-7",
+    "light-ideblue-4"
+  ],
+  "kt.secondaryButton.hoverBorder": [
+    "dark-ideblue-7",
+    "light-ideblue-4"
+  ],
+  "kt.secondaryButton.clickForeground": [
+    "dark-ideblue-6",
+    "light-ideblue-6"
+  ],
+  "kt.secondaryButton.clickBorder": [
+    "dark-ideblue-6",
+    "light-ideblue-6"
+  ],
+  "kt.button.disableForeground": [
+    "dark-idegrey-6",
+    "light-idegrey-6"
+  ],
+  "kt.button.disableBackground": [
+    "opacity(dark-idegrey-6,25)",
+    "opacity(light-idegrey-6,25)"
+  ],
+  "kt.button.disableBorder": [
+    "opacity(dark-idegrey-6,50)",
+    "opacity(light-idegrey-6,50)"
+  ],
+  "kt.whiteGhostButton.disableForeground": [
+    "opacity(white,25)",
+    "opacity(white,25)"
+  ],
+  "kt.whiteGhostButton.disableBackground": [
+    "opacity(white,1)",
+    "opacity(white,1)"
+  ],
+  "kt.whiteGhostButton.disableBorder": [
+    "opacity(white,25)",
+    "opacity(white,25)"
+  ],
+  "kt.linkButton.foreground": [
+    "dark-ideblue-7",
+    "light-ideblue-6"
+  ],
+  "kt.linkButton.hoverForeground": [
+    "dark-ideblue-8",
+    "light-ideblue-5"
+  ],
+  "kt.linkButton.clickForeground": [
+    "dark-ideblue-6",
+    "light-ideblue-7"
+  ],
+  "kt.linkButton.disableForeground": [
+    "dark-idegrey-6",
+    "light-idegrey-6"
+  ],
+  "kt.icon.foreground": [
+    "dark-idegrey-9",
+    "light-idegrey-9"
+  ],
+  "kt.icon.hoverForeground": [
+    "dark-idegrey-9",
+    "light-idegrey-9"
+  ],
+  "kt.icon.hoverBackground": [
+    "dark-ideblue-2",
+    "light-ideblue-1"
+  ],
+  "kt.icon.clickForeground": [
+    "dark-idegrey-9",
+    "light-idegrey-9"
+  ],
+  "icon.selectionForeground": [
+    "dark-idegrey-9",
+    "light-idegrey-9"
+  ],
+  "icon.selectionBackground": [
+    "dark-ideblue-2",
+    "light-ideblue-1"
+  ],
+  "icon.selectionBorder": [
+    "dark-ideblue-5",
+    "light-ideblue-5"
+  ],
+  "kt.icon.disableForeground": [
+    "dark-idegrey-6",
+    "light-idegrey-6"
+  ],
+  "iconButton.foreground": [
+    "dark-idegrey-9",
+    "light-idegrey-9"
+  ],
+  "iconButton.background": [
+    "dark-idegrey-5",
+    "light-idegrey-1"
+  ],
+  "iconButton.border": [
+    "-",
+    "light-idegrey-5"
+  ],
+  "iconButton.hoverBackground": [
+    "dark-idegrey-6",
+    "light-idegrey-1"
+  ],
+  "iconButton.hoverBorder": [
+    "-",
+    "light-ideblue-4"
+  ],
+  "iconButton.clickBackground": [
+    "dark-idegrey-4",
+    "light-idegrey-1"
+  ],
+  "iconButton.clickBorder": [
+    "-",
+    "light-ideblue-6"
+  ],
+  "iconButton.selectionForeground": [
+    "dark-idegrey-10",
+    "light-idegrey-1"
+  ],
+  "iconButton.selectionBackground": [
+    "dark-ideblue-6",
+    "light-ideblue-6"
+  ],
+  "iconButton.disableForeground": [
+    "dark-idegrey-6",
+    "light-idegrey-6"
+  ],
+  "iconButton.disableBackground": [
+    "opacity(dark-idegrey-6,25)",
+    "opacity(light-idegrey-6,25)"
+  ],
+  "iconButton.disableBorder": [
+    "opacity(dark-idegrey-6,50)",
+    "opacity(light-idegrey-6,50)"
+  ]
+}

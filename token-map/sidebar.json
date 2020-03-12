@@ -1,0 +1,50 @@
+{
+  "foreground": [
+    "dark-idegrey-9",
+    "light-idegrey-9"
+  ],
+  "sideBar.background": [
+    "dark-idegrey-3",
+    "light-idegrey-3"
+  ],
+  "sideBarTitle.foreground": [
+    "dark-idegrey-10",
+    "light-idegrey-10"
+  ],
+  "kt.sideBarTitle.activeBorder": [
+    "dark-ideblue-6",
+    "light-ideblue-6"
+  ],
+  "sideBar.border": [
+    "dark-idegrey-2",
+    "light-idegrey-5"
+  ],
+  "sideBarSectionHeader.foreground": [
+    "dark-idegrey-10",
+    "light-idegrey-10"
+  ],
+  "sideBarSectionHeader.background": [
+    "dark-idegrey-5",
+    "light-idegrey-5"
+  ],
+  "descriptionForeground": [
+    "dark-idegrey-7",
+    "light-idegrey-7"
+  ],
+  "badge.foreground": [
+    "dark-idegrey-7",
+    "light-idegrey-7"
+  ],
+  "badge.background": [
+    "opacity(dark-idegrey-6,25)",
+    "opacity(light-idegrey-6,25)"
+  ],
+  "sideBarSectionHeader.upShadow": [
+    "",
+    ""
+  ],
+  "sideBarSectionHeader.downShadow": [
+    "",
+    ""
+  ]
+}
