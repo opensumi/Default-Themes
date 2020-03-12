@@ -1,0 +1,22 @@
+{
+  "kt.actionbar.foreground": [
+    "dark-idegrey-9",
+    "light-idegrey-9"
+  ],
+  "kt.actionbar.disableForeground": [
+    "dark-idegrey-6",
+    "light-idegrey-6"
+  ],
+  "kt.actionbar.separatorBackground": [
+    "opacity(dark-idegrey-6,25)",
+    "opacity(light-idegrey-6,25)"
+  ],
+  "kt.actionbar.selectionBackground": [
+    "dark-ideblue-2",
+    "light-ideblue-1"
+  ],
+  "kt.actionbar.selectionBorder": [
+    "dark-ideblue-5",
+    "light-ideblue-5"
+  ]
+}

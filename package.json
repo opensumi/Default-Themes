@@ -11,22 +11,52 @@
     "vscode": "*"
   },
   "scripts": {
+    "build": "rm -rf ../ide-theme.zip && builder zip . .. .builderignore",
+    "crawl": "node scripts/yuque-crawler.js",
+    "update": "node scripts/update-theme-template.js",
+    "generate": "node scripts/index.js",
+    "prerelease": "npm run crawl && npm run update && npm run generate",
     "release": "standard-version"
   },
+  "ideThemeConfig": [
+    {
+      "id": "ide-dark",
+      "category": "dark",
+      "palette": "./palette/dark.less"
+    },
+    {
+      "id": "ide-light",
+      "category": "light",
+      "palette": "./palette/light.less"
+    }
+  ],
   "contributes": {
     "themes": [
       {
         "id": "ide-dark",
         "label": "IDE Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/dark_plus.json"
+        "path": "./themes/dark/plus.json"
+      },
+      {
+        "id": "ide-light",
+        "label": "IDE Light",
+        "uiTheme": "vs",
+        "path": "./themes/light/plus.json"
       }
     ]
   },
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "lint-staged"
     }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint",
+      "prettier --write"
+    ]
   },
   "commitlint": {
     "extends": [
@@ -36,7 +66,32 @@
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
     "@commitlint/config-conventional": "^8.2.0",
-    "husky": "^3.0.9",
-    "standard-version": "^7.0.0"
+    "@types/cheerio": "^0.22.16",
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "color": "^3.1.2",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-config-prettier-standard": "^3.0.1",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "git-user-name": "^2.0.0",
+    "git-username": "^1.0.0",
+    "got": "^10.6.0",
+    "handlebars": "^4.7.3",
+    "husky": "^4.2.3",
+    "is-color": "^1.0.2",
+    "json5": "^2.1.1",
+    "less-vars-to-js": "^1.3.0",
+    "lint-staged": "^10.0.7",
+    "prettier": "1.19.1",
+    "prettier-config-standard": "^1.0.1",
+    "read-pkg": "^5.2.0",
+    "standard-version": "^7.0.0",
+    "strip-json-comments": "^3.0.1"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "popover.foreground": [
+    "dark-idegrey-9",
+    "light-idegrey-9"
+  ],
+  "popover.background": [
+    "dark-idegrey-4",
+    "light-idegrey-1"
+  ],
+  "popover.border": [
+    "dark-idegrey-3",
+    "light-idegrey-5"
+  ],
+  "popover.shadow": [
+    "",
+    ""
+  ]
+}

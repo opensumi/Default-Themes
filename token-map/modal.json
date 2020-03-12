@@ -1,0 +1,34 @@
+{
+  "kt.modal.foreground": [
+    "dark-idegrey-9",
+    "light-idegrey-9"
+  ],
+  "kt.modal.background": [
+    "dark-idegrey-4",
+    "light-idegrey-1"
+  ],
+  "kt.modal.separatorBackground": [
+    "dark-idegrey-3",
+    "light-idegrey-5"
+  ],
+  "kt.modalErrorIcon.foreground": [
+    "dark-red-7",
+    "light-red-6"
+  ],
+  "kt.modalWarningIcon.foreground": [
+    "dark-gold-7",
+    "light-gold-6"
+  ],
+  "kt.modalInfoIcon.foreground": [
+    "dark-ideblue-7",
+    "light-ideblue-6"
+  ],
+  "kt.modalSuccessIcon.foreground": [
+    "dark-green-7",
+    "light-green-6"
+  ],
+  "modal.shadow": [
+    "",
+    ""
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "kt.accentForeground": [
+    "dark-idegrey-10",
+    "light-idegrey-10"
+  ],
+  "foreground": [
+    "dark-idegrey-9",
+    "light-idegrey-9"
+  ],
+  "descriptionForeground": [
+    "dark-idegrey-7",
+    "light-idegrey-7"
+  ],
+  "kt.disableForeground": [
+    "dark-idegrey-6",
+    "light-idegrey-6"
+  ],
+  "errorForeground": [
+    "dark-red-6",
+    "light-red-1"
+  ],
+  "icon.foreground": [
+    "dark-idegrey-9",
+    "light-idegrey-9"
+  ],
+  "kt.icon.secondaryForeground": [
+    "dark-idegrey-7",
+    "light-idegrey-7"
+  ],
+  "focusBorder": [
+    "dark-ideblue-6",
+    "light-ideblue-6"
+  ],
+  "kt.errorIconForeground": [
+    "dark-red-7",
+    "light-red-5"
+  ],
+  "kt.errorBackground": [
+    "opacity(dark-red-6,25)",
+    "opacity(light-red-4,25)"
+  ],
+  "kt.warningIconForeground": [
+    "dark-gold-7",
+    "light-gold-5"
+  ],
+  "kt.warningBackground": [
+    "opacity(dark-gold-6,25)",
+    "opacity(light-gold-4,25)"
+  ],
+  "kt.successIconForeground": [
+    "dark-green-7",
+    "light-green-5"
+  ],
+  "kt.successBackground": [
+    "opacity(dark-green-6,25)",
+    "opacity(light-green-4,25)"
+  ],
+  "kt.infoIconForeground": [
+    "dark-ideblue-7",
+    "light-ideblue-5"
+  ],
+  "kt.infoBackground": [
+    "opacity(dark-ideblue-6,25)",
+    "opacity(light-ideblue-4,25)"
+  ],
+  "kt.hintIconForeground": [
+    "dark-idegrey-7",
+    "light-idegrey-7"
+  ],
+  "kt.hintBackground": [
+    "opacity(dark-idegrey-6,25)",
+    "opacity(light-idegrey-6,25)"
+  ]
+}

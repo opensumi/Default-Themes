@@ -1,0 +1,86 @@
+{
+  "foreground": [
+    "dark-idegrey-9",
+    "light-idegrey-9"
+  ],
+  "descriptionForeground": [
+    "dark-idegrey-7",
+    "light-idegrey-7"
+  ],
+  "tree.hoverForeground": [
+    "dark-idegrey-9",
+    "light-idegrey-9"
+  ],
+  "kt.tree.hoverForeground": [
+    "opacity(dark-idegrey-6,25)",
+    "opacity(light-idegrey-6,25)"
+  ],
+  "kt.tree.activeSelectionForeground": [
+    "dark-idegrey-10",
+    "light-idegrey-1"
+  ],
+  "kt.tree.activeSelectionBackground": [
+    "dark-idegrey-5",
+    "light-idegrey-5"
+  ],
+  "kt.tree.inactiveSelectionForeground": [
+    "dark-idegrey-9",
+    "light-idegrey-9"
+  ],
+  "kt.tree.inactiveSelectionBackground": [
+    "opacity(dark-ideblue-6,25)",
+    "opacity(light-ideblue-4,25)"
+  ],
+  "sideBar.dropBackground": [
+    "dark-ideblue-4",
+    "light-ideblue-2"
+  ],
+  "tree.dropShadow": [
+    "",
+    "0px 1px 2px -2px rgba(0,0,0,0.16)"
+  ],
+  "badge.foreground": [
+    "dark-idegrey-7",
+    "light-idegrey-7"
+  ],
+  "badge.background": [
+    "opacity(dark-idegrey-6,25)",
+    "opacity(light-idegrey-6,25)"
+  ],
+  "dirtyDot.foreground": [
+    "dark-idegrey-7",
+    "light-idegrey-7"
+  ],
+  "treeIcon.foreground": [
+    "dark-idegrey-9",
+    "light-idegrey-9"
+  ],
+  "gitDecoration.addedResourceForeground": [
+    "dark-green-8",
+    "light-green-6"
+  ],
+  "gitDecoration.modifiedResourceForeground": [
+    "dark-gold-8",
+    "light-gold-6"
+  ],
+  "gitDecoration.deletedResourceForeground": [
+    "dark-volcano-8",
+    "light-volcano-6"
+  ],
+  "gitDecoration.untrackedResourceForeground": [
+    "dark-cyan-8",
+    "light-cyan-6"
+  ],
+  "gitDecoration.ignoredResourceForeground": [
+    "dark-idegrey-8",
+    "light-idegrey-8"
+  ],
+  "gitDecoration.conflictingResourceForeground": [
+    "dark-geekblue-8",
+    "dark-geekblue-6"
+  ],
+  "gitDecoration.submoduleResourceForeground": [
+    "dark-ideblue-8",
+    "light-ideblue-6"
+  ]
+}
