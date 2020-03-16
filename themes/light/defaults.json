@@ -117,7 +117,7 @@
     "kt.panelTab.border": "#E0E0E0",
     "kt.panelTab.inactiveBackground": "#F2F2F2",
     "kt.panelTab.inactiveForeground": "#4D4D4D",
-    "kt.panelTitle.background": "#E0E0E0",
+    "kt.panelTitle.background": "#F2F2F2",
     "kt.primaryButton.background": "#1785EB",
     "kt.primaryButton.clickBackground": "#0D75D6",
     "kt.primaryButton.foreground": "#FFFFFF",

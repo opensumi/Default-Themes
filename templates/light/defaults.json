@@ -114,7 +114,7 @@
   "kt.panelTab.border": "light-idegrey-5",
   "kt.panelTab.inactiveBackground": "light-idegrey-3",
   "kt.panelTab.inactiveForeground": "light-idegrey-9",
-  "kt.panelTitle.background": "light-idegrey-5",
+  "kt.panelTitle.background": "light-idegrey-3",
   "kt.primaryButton.background": "light-ideblue-6",
   "kt.primaryButton.clickBackground": "light-ideblue-7",
   "kt.primaryButton.foreground": "light-idegrey-1",
