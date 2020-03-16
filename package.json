@@ -1,7 +1,7 @@
 {
-  "name": "ide-dark-theme",
-  "displayName": "IDE Dark Theme",
-  "description": "IDE Dark Theme",
+  "name": "@ali/ide-ext-theme",
+  "displayName": "IDE UI Theme",
+  "description": "IDE UI Theme",
   "categories": [
     "Themes"
   ],
