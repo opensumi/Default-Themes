@@ -1,3 +1,5 @@
+// GENERATE BY ./scripts/yuque-crawler.js
+// DON NOT EDIT IT MANUALLY
 module.exports = Object.assign(
   {},
   require('./basic.json'),
