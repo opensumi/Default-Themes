@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0-alpha.4](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v2.0.0-alpha.3...v2.0.0-alpha.4) (2020-03-17)
+
+
+### Features
+
+* add entry for token-map folder ([ab3e8c9](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/ab3e8c9c2f6691a0514e23168bd5993e48881d77))
+
 ## [2.0.0-alpha.3](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v2.0.0-alpha.2...v2.0.0-alpha.3) (2020-03-17)
 
 
