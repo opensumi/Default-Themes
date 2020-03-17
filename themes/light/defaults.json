@@ -9,7 +9,7 @@
     "activityBar.disableForeground": "#CCCCCC",
     "activityBar.dropBackground": "#E0E0E0",
     "activityBar.foreground": "#4D4D4D",
-    "activityBar.inactiveForeground": "#CCCCCC",
+    "activityBar.inactiveForeground": "#999999",
     "activityBarBadge.background": "#1785EB",
     "activityBarBadge.foreground": "#FFFFFF",
     "badge.background": "#CCCCCC40",

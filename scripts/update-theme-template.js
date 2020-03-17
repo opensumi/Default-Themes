@@ -3,9 +3,7 @@ const fs = require('fs')
 
 const ora = require('ora')
 
-const getYuqueTokenMap = require('./yuque-token-map')
-
-const yuqueTokenMap = getYuqueTokenMap()
+const yuqueTokenMap = require('../token-map')
 
 function updateFile(uid, themeDesc) {
   const targetFile = path.resolve(
