@@ -155,10 +155,12 @@ ${docs.map(docSlug => `  require('./${docSlug}.json')`).join(',\n')}
             .children('p')
             .first()
             .text()
+            .trim()
           if (text) {
             lightLessVar = text
           }
         }
+
         result[themeToken] = [darkLessVar, lightLessVar]
       } catch (err) {
         console.warn('error with:', element)
