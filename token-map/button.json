@@ -85,11 +85,11 @@
   ],
   "kt.whiteGhostButton.clickForeground": [
     "opacity(white,65)",
-    " opacity(white,65)"
+    "opacity(white,65)"
   ],
   "kt.whiteGhostButton.clickBorder": [
     "opacity(white,65)",
-    " opacity(white,65)"
+    "opacity(white,65)"
   ],
   "kt.secondaryButton.foreground": [
     "dark-idegrey-9",

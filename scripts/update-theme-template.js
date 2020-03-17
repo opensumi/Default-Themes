@@ -21,10 +21,10 @@ function getThemeDesc() {
     .sort()
     .forEach(token => {
       const [darkColor, lightColor] = yuqueTokenMap[token]
-      if (darkColor && darkColor.trim() !== '-') {
+      if (darkColor && darkColor !== '-') {
         darkThemeDesc[token] = darkColor
       }
-      if (lightColor && lightColor.trim() !== '-') {
+      if (lightColor && lightColor !== '-') {
         lightThemeDesc[token] = lightColor
       }
     })
