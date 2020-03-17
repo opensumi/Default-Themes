@@ -40,6 +40,7 @@ class CrawlProcess {
 
     const promises = docSlugs.map(slug => this.fetchBodyHtml(slug))
     await Promise.all(promises)
+    await this.generateTokenMapEntry()
 
     const files = await gitChangedFiles()
     if (
@@ -72,6 +73,17 @@ class CrawlProcess {
         process.exit(0)
       }
     }
+  }
+
+  async generateTokenMapEntry() {
+    // eslint-disable-next-line prettier/prettier
+    const entryContent = `module.exports = Object.assign(
+  {},
+${docs.map(docSlug => `  require('./${docSlug}.json')`).join(',\n')}
+)\n`
+    await fsWriteFile(path.resolve(TARGET_DIR, 'index.js'), entryContent, {
+      encoding: 'utf8'
+    })
   }
 
   async fetchBodyHtml(slug) {
