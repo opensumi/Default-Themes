@@ -77,10 +77,15 @@ class CrawlProcess {
 
   async generateTokenMapEntry() {
     // eslint-disable-next-line prettier/prettier
-    const entryContent = `module.exports = Object.assign(
+    const entryContent =
+      `
+// GENERATE BY ./scripts/yuque-crawler.js
+// DON NOT EDIT IT MANUALLY
+module.exports = Object.assign(
   {},
 ${docs.map(docSlug => `  require('./${docSlug}.json')`).join(',\n')}
-)\n`
+)
+    `.trim() + '\n'
     await fsWriteFile(path.resolve(TARGET_DIR, 'index.js'), entryContent, {
       encoding: 'utf8'
     })
