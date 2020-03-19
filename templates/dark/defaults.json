@@ -130,7 +130,7 @@
   "kt.secondaryButton.foreground": "dark-idegrey-9",
   "kt.secondaryButton.hoverBorder": "dark-ideblue-7",
   "kt.secondaryButton.hoverForeground": "dark-ideblue-7",
-  "kt.select.background": "opacity(light-idegrey-6,25)",
+  "kt.select.background": "opacity(black,25)",
   "kt.select.disableBackground": "opacity(dark-idegrey-6,25)",
   "kt.select.disableForeground": "dark-idegrey-6",
   "kt.select.foreground": "dark-idegrey-9",

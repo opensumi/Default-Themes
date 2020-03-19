@@ -4,7 +4,7 @@
     "light-idegrey-9"
   ],
   "kt.select.background": [
-    "opacity(light-idegrey-6,25)",
+    "opacity(black,25)",
     "light-idegrey-1"
   ],
   "kt.select.placeholderForeground": [
