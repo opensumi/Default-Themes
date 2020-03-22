@@ -142,6 +142,7 @@
     "kt.selectDropdown.foreground": "#D7DBDE",
     "kt.selectDropdown.hoverBackground": "#5F656B40",
     "kt.selectDropdown.selectionBackground": "#167CDB40",
+    "kt.selectOption.activeBorder": "#167CDB",
     "kt.statusbar.offline.background": "#DB4345",
     "kt.successBackground": "#48A91840",
     "kt.successIconForeground": "#64B436",
