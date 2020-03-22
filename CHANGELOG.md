@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0-alpha.8](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v2.0.0-alpha.7...v2.0.0-alpha.8) (2020-03-22)
+
+
+### Features
+
+* add kt.selectOption.activeBorder ([ca24e7e](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/ca24e7eed35556d9ee7a47dd2c7b0533475f74b0))
+
 ## [2.0.0-alpha.7](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v2.0.0-alpha.6...v2.0.0-alpha.7) (2020-03-19)
 
 
