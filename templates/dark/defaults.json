@@ -139,6 +139,7 @@
   "kt.selectDropdown.foreground": "dark-idegrey-9",
   "kt.selectDropdown.hoverBackground": "opacity(dark-idegrey-6,25)",
   "kt.selectDropdown.selectionBackground": "opacity(dark-ideblue-6,25)",
+  "kt.selectOption.activeBorder": "dark-ideblue-6",
   "kt.statusbar.offline.background": "dark-red-7",
   "kt.successBackground": "opacity(dark-green-6,25)",
   "kt.successIconForeground": "dark-green-7",
