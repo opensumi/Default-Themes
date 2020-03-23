@@ -9,7 +9,7 @@
   "activityBar.inactiveForeground": "dark-idegrey-7",
   "activityBarBadge.background": "dark-ideblue-6",
   "activityBarBadge.foreground": "dark-idegrey-10",
-  "badge.background": "opacity(dark-idegrey-6,25)",
+  "badge.background": "opacity(dark-idegrey-6,50)",
   "badge.foreground": "dark-idegrey-7",
   "checkbox.background": "opacity(dark-black,25)",
   "checkbox.selectionAllForeground": "dark-ideblue-6",
