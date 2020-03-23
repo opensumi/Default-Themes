@@ -11,7 +11,7 @@
     "dark-idegrey-9",
     "light-idegrey-9"
   ],
-  "kt.tree.hoverForeground": [
+  "kt.tree.hoverBackground": [
     "opacity(dark-idegrey-6,25)",
     "opacity(light-idegrey-6,25)"
   ],

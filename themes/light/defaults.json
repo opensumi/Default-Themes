@@ -155,7 +155,7 @@
     "kt.tab.inactiveForeground": "#4D4D4D",
     "kt.tree.activeSelectionBackground": "#E0E0E0",
     "kt.tree.activeSelectionForeground": "#FFFFFF",
-    "kt.tree.hoverForeground": "#CCCCCC40",
+    "kt.tree.hoverBackground": "#CCCCCC40",
     "kt.tree.inactiveSelectionBackground": "#6EB6FA40",
     "kt.tree.inactiveSelectionForeground": "#4D4D4D",
     "kt.warningBackground": "#FFD66640",
