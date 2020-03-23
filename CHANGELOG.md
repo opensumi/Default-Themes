@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0-alpha.9](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v2.0.0-alpha.8...v2.0.0-alpha.9) (2020-03-23)
+
+
+### Bug Fixes
+
+* duplicate badge.background ([4280dec](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/4280decf91f58ea2b50f2c63e6db216af83b071f))
+
 ## [2.0.0-alpha.8](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v2.0.0-alpha.7...v2.0.0-alpha.8) (2020-03-22)
 
 
