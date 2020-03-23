@@ -152,7 +152,7 @@
   "kt.tab.inactiveForeground": "light-idegrey-9",
   "kt.tree.activeSelectionBackground": "light-idegrey-5",
   "kt.tree.activeSelectionForeground": "light-idegrey-1",
-  "kt.tree.hoverForeground": "opacity(light-idegrey-6,25)",
+  "kt.tree.hoverBackground": "opacity(light-idegrey-6,25)",
   "kt.tree.inactiveSelectionBackground": "opacity(light-ideblue-4,25)",
   "kt.tree.inactiveSelectionForeground": "light-idegrey-9",
   "kt.warningBackground": "opacity(light-gold-4,25)",
