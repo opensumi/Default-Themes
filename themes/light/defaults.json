@@ -12,7 +12,7 @@
     "activityBar.inactiveForeground": "#999999",
     "activityBarBadge.background": "#1785EB",
     "activityBarBadge.foreground": "#FFFFFF",
-    "badge.background": "#CCCCCC40",
+    "badge.background": "#CCCCCC80",
     "badge.foreground": "#999999",
     "checkbox.background": "#FFFFFF",
     "checkbox.border": "#E0E0E0",
