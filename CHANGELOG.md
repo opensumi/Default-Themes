@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0-alpha.10](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v2.0.0-alpha.9...v2.0.0-alpha.10) (2020-03-23)
+
+
+### Bug Fixes
+
+* kt.tree.hoverBackground typo ([3a4fe52](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/3a4fe52ec51da9dddba3eb5646ac15c5d827f6b0))
+
 ## [2.0.0-alpha.9](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v2.0.0-alpha.8...v2.0.0-alpha.9) (2020-03-23)
 
 
