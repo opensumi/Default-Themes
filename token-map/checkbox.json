@@ -4,7 +4,7 @@
     "light-idegrey-1"
   ],
   "checkbox.border": [
-    "-",
+    "opacity(black,0)",
     "light-idegrey-5"
   ],
   "kt.checkbox.hoverBorder": [
