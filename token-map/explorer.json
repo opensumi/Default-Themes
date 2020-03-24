@@ -20,8 +20,8 @@
     "light-idegrey-1"
   ],
   "kt.tree.activeSelectionBackground": [
-    "dark-idegrey-5",
-    "light-idegrey-5"
+    "dark-ideblue-5",
+    "light-ideblue-7"
   ],
   "kt.tree.inactiveSelectionForeground": [
     "dark-idegrey-9",
@@ -31,9 +31,13 @@
     "opacity(dark-ideblue-6,25)",
     "opacity(light-ideblue-4,25)"
   ],
-  "sideBar.dropBackground": [
+  "sideBar.dropUpBackground": [
     "dark-ideblue-4",
     "light-ideblue-2"
+  ],
+  "sideBar.dropBackground": [
+    "dark-idegrey-5",
+    "light-idegrey-5"
   ],
   "tree.dropShadow": [
     "",
