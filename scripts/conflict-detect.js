@@ -44,14 +44,16 @@ class ConflictDetect {
     if (result.warning.length || result.error.length) {
       console.log('----- Conflict detection results: -----')
       if (result.warning.length) {
-        console.log(chalk.bgYellowBright('Warnings:'))
+        console.log(chalk.bgYellow('----- Warnings: -----', '\n'))
         result.warning.forEach(msg => {
           console.log(msg)
         })
+
+        console.log('\n')
       }
 
       if (result.error.length) {
-        console.log(chalk.bgRedBright('Errors:'))
+        console.log(chalk.bgRed('----- Errors: -----'), '\n')
         result.error.forEach(msg => {
           console.log(msg)
         })
