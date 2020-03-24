@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0-alpha.13](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v2.0.0-alpha.12...v2.0.0-alpha.13) (2020-03-24)
+
+
+### Bug Fixes
+
+* list.activeSelectionForeground ([be3657d](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/be3657d9fd3c23e67720ee5fbeb80c9808473f4b))
+
 ## [2.0.0-alpha.12](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v2.0.0-alpha.11...v2.0.0-alpha.12) (2020-03-24)
 
 
