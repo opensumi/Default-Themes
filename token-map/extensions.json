@@ -1,5 +1,9 @@
 {
-  "list.inactiveSelectionForeground": [
+  "foreground": [
+    "dark-idegrey-9",
+    "light-idegrey-9"
+  ],
+  "descriptionForeground": [
     "dark-idegrey-7",
     "light-idegrey-7"
   ],
