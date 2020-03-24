@@ -169,7 +169,6 @@
   "list.evenItemBackground": "opacity(dark-idegrey-6,8)",
   "list.headerBackground": "opacity(dark-idegrey-6,12)",
   "list.hoverBackground": "opacity(dark-idegrey-6,25)",
-  "list.inactiveSelectionForeground": "dark-idegrey-7",
   "menu.background": "dark-idegrey-4",
   "menu.foreground": "dark-idegrey-9",
   "menu.selectionBackground": "opacity(dark-idegrey-6,25)",
