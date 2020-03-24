@@ -165,7 +165,7 @@
   "kt.whiteGhostButton.disableForeground": "opacity(white,25)",
   "kt.whiteGhostButton.foreground": "light-idegrey-1",
   "list.activeSelectionBackground": "light-ideblue-7",
-  "list.activeSelectionForeground": "light-idegrey-10",
+  "list.activeSelectionForeground": "light-idegrey-1",
   "list.evenItemBackground": "opacity(light-idegrey-7,8)",
   "list.headerBackground": "opacity(light-idegrey-7,12)",
   "list.hoverBackground": "opacity(light-idegrey-6,25)",
