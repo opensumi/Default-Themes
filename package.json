@@ -14,7 +14,8 @@
     "update:token-map": "node scripts/yuque-crawler.js",
     "update:theme-template": "node scripts/update-theme-template.js",
     "update:theme-json": "node scripts/index.js",
-    "update": "npm run update:token-map && npm run update:theme-template && npm run update:theme-json",
+    "update:conflict-detect": "node scripts/conflict-detect.js",
+    "update": "npm run update:token-map && npm run update:theme-template && npm run update:theme-json && npm run update:conflict-detect",
     "build": "rm -rf ../ide-theme.zip && builder zip . .. .builderignore",
     "release": "standard-version",
     "postrelease": "npm run build"
