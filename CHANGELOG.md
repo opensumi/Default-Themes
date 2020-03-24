@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0-alpha.11](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v2.0.0-alpha.10...v2.0.0-alpha.11) (2020-03-24)
+
+
+### Features
+
+* use transparent instead of - ([20a9b60](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/20a9b60ca1cb49616df1e01f42707f4456935c73))
+
 ## [2.0.0-alpha.10](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v2.0.0-alpha.9...v2.0.0-alpha.10) (2020-03-23)
 
 
