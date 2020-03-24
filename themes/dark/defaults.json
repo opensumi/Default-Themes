@@ -243,6 +243,7 @@
     "tree.hoverForeground": "#D7DBDE",
     "tree.secondaryForeground": "#868C91",
     "tree.selectionBackground": "#1A66AC",
-    "treeIcon.foreground": "#D7DBDE"
+    "treeIcon.foreground": "#D7DBDE",
+    "widget.shadow": "#00000099"
   }
 }

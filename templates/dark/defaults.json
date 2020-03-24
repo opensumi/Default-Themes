@@ -241,5 +241,6 @@
   "tree.hoverForeground": "dark-idegrey-9",
   "tree.secondaryForeground": "dark-idegrey-7",
   "tree.selectionBackground": "dark-ideblue-5",
-  "treeIcon.foreground": "dark-idegrey-9"
+  "treeIcon.foreground": "dark-idegrey-9",
+  "widget.shadow": "opacity(black, 60)"
 }

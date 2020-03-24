@@ -242,5 +242,6 @@
   "tree.hoverForeground": "light-idegrey-9",
   "tree.secondaryForeground": "light-idegrey-7",
   "tree.selectionBackground": "light-ideblue-7",
-  "treeIcon.foreground": "light-idegrey-9"
+  "treeIcon.foreground": "light-idegrey-9",
+  "widget.shadow": "light-idegrey-6"
 }

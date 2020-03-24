@@ -19,6 +19,10 @@
     "dark-red-6",
     "light-red-1"
   ],
+  "widget.shadow": [
+    "opacity(black, 60)",
+    "light-idegrey-6"
+  ],
   "icon.foreground": [
     "dark-idegrey-9",
     "light-idegrey-9"
