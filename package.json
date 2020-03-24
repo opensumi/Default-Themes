@@ -5,7 +5,7 @@
   "categories": [
     "Themes"
   ],
-  "version": "2.0.0-alpha.11",
+  "version": "2.0.0-alpha.12",
   "publisher": "kaitian",
   "engines": {
     "vscode": "*"

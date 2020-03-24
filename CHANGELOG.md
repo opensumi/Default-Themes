@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0-alpha.12](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v2.0.0-alpha.11...v2.0.0-alpha.12) (2020-03-24)
+
+
+### Features
+
+* add conflict detection ([a10b6a0](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/a10b6a0b1d3fc2eb3ed8387b618f56419389e094))
+* update with list.activeSelectionBackground and kt.tree.activeSeletionBackground ([fddb476](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/fddb4761f58ccc86f674a4b9181532446a49ef33))
+
 ## [2.0.0-alpha.11](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v2.0.0-alpha.10...v2.0.0-alpha.11) (2020-03-24)
 
 
