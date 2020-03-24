@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0-alpha.14](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v2.0.0-alpha.13...v2.0.0-alpha.14) (2020-03-24)
+
+
+### Bug Fixes
+
+* badge.background ([14f598c](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/14f598c4f70f8c1caeac4c15b16c7f4e14b2b7fb))
+* conflict detection ([e280c22](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/e280c220fa6e6df086ed2091fd881f8a1f557b25))
+
 ## [2.0.0-alpha.13](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v2.0.0-alpha.12...v2.0.0-alpha.13) (2020-03-24)
 
 
