@@ -20,7 +20,7 @@
     "light-idegrey-7"
   ],
   "badge.background": [
-    "opacity(dark-idegrey-6,25)",
-    "opacity(light-idegrey-6,25)"
+    "opacity(dark-idegrey-6,50)",
+    "opacity(light-idegrey-6,50)"
   ]
 }
