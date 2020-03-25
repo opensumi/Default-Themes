@@ -16,11 +16,11 @@
     "opacity(light-idegrey-6,25)"
   ],
   "badge.foreground": [
-    "dark-idegrey-7",
-    "light-idegrey-7"
+    "dark-idegrey-9",
+    "light-idegrey-9"
   ],
   "badge.background": [
-    "opacity(dark-idegrey-6,50)",
-    "opacity(light-idegrey-6,50)"
+    "opacity(white,25)",
+    "opacity(black,12)"
   ]
 }
