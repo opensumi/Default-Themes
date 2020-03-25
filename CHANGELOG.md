@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0-alpha.15](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v2.0.0-alpha.14...v2.0.0-alpha.15) (2020-03-25)
+
+
+### Features
+
+* support default button ([39dfd67](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/39dfd67b975a08984e37a65eb191053ea61ef38e))
+* update extensions page related ([88fb615](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/88fb615d17d27b1031073eedb26e25ec155127cb))
+
 ## [2.0.0-alpha.14](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v2.0.0-alpha.13...v2.0.0-alpha.14) (2020-03-24)
 
 
