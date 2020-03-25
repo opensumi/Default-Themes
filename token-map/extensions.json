@@ -26,5 +26,13 @@
   "kt.whiteGhostButton.border": [
     "dark-idegrey-10",
     "light-idegrey-1"
+  ],
+  "kt.primaryGhostButton.foreground": [
+    "dark-ideblue-7",
+    "light-ideblue-4"
+  ],
+  "kt.primaryGhostButton.border": [
+    "dark-ideblue-7",
+    "light-ideblue-6"
   ]
 }

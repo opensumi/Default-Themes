@@ -174,5 +174,53 @@
   "kt.icon.disableForeground": [
     "dark-idegrey-6",
     "light-idegrey-6"
+  ],
+  "kt.defaultButton.foreground": [
+    "dark-idegrey-9",
+    "light-idegrey-9"
+  ],
+  "kt.defaultButton.background": [
+    "dark-idegrey-5",
+    "light-idegrey-1"
+  ],
+  "kt.defaultButton.border": [
+    "opacity(black,0)",
+    "light-idegrey-5"
+  ],
+  "kt.defaultButton.hoverBackground": [
+    "dark-idegrey-6",
+    "light-idegrey-1"
+  ],
+  "kt.defaultButton.hoverBorder": [
+    "opacity(black,0)",
+    "light-ideblue-4"
+  ],
+  "kt.defaultButton.clickBackground": [
+    "dark-idegrey-4",
+    "light-idegrey-1"
+  ],
+  "kt.defaultButton.clickBorder": [
+    "opacity(black,0)",
+    "light-ideblue-6"
+  ],
+  "kt.defaultButton.selectionForeground": [
+    "dark-idegrey-10",
+    "light-idegrey-1"
+  ],
+  "kt.defaultButton.selectionBackground": [
+    "dark-ideblue-6",
+    "light-ideblue-6"
+  ],
+  "kt.defaultButton.disableForeground": [
+    "dark-idegrey-6",
+    "light-idegrey-6"
+  ],
+  "kt.defaultButton.disableBackground": [
+    "opacity(dark-idegrey-6,25)",
+    "opacity(light-idegrey-6,25)"
+  ],
+  "kt.defaultButton.disableBorder": [
+    "opacity(dark-idegrey-6,50)",
+    "opacity(light-idegrey-6,50)"
   ]
 }
