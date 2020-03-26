@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.19.4](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.19.3...v1.19.4) (2020-03-26)
+
+
+### Bug Fixes
+
+* terminal border ([dab79bb](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/dab79bb8283896a91e3685b8996c77b6ba6ea8da))
+
 ### [1.19.3](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v1.19.1...v1.19.3) (2020-02-27)
 
 
