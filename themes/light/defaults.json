@@ -140,7 +140,7 @@
     "kt.primaryGhostButton.border": "#1785EB",
     "kt.primaryGhostButton.clickBorder": "#0D75D6",
     "kt.primaryGhostButton.clickForeground": "#0D75D6",
-    "kt.primaryGhostButton.foreground": "#6EB6FA",
+    "kt.primaryGhostButton.foreground": "#1785EB",
     "kt.secondaryButton.border": "#E0E0E0",
     "kt.secondaryButton.clickBorder": "#1785EB",
     "kt.secondaryButton.clickForeground": "#1785EB",
