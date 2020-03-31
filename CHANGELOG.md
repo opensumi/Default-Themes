@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0-alpha.16](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v2.0.0-alpha.15...v2.0.0-alpha.16) (2020-03-31)
+
+
+### Bug Fixes
+
+* kt.primaryGhostButton.foreground ([c6f901a](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/c6f901aac66d59bcf6669d0b50f676713e2b0289))
+
 ## [2.0.0-alpha.15](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v2.0.0-alpha.14...v2.0.0-alpha.15) (2020-03-25)
 
 
