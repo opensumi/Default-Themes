@@ -133,6 +133,7 @@
     "kt.popover.background": "#35393D",
     "kt.popover.border": "#2C3033",
     "kt.popover.foreground": "#D7DBDE",
+    "kt.popover.prominentBackground": "#2C3033",
     "kt.primaryButton.background": "#167CDB",
     "kt.primaryButton.clickBackground": "#1A66AC",
     "kt.primaryButton.foreground": "#FFFFFF",
