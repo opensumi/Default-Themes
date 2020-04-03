@@ -7,6 +7,10 @@
     "dark-idegrey-4",
     "light-idegrey-1"
   ],
+  "kt.popover.prominentBackground": [
+    "dark-idegrey-3",
+    "light-idegrey-3"
+  ],
   "kt.popover.border": [
     "dark-idegrey-3",
     "light-idegrey-5"

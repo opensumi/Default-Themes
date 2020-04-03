@@ -130,6 +130,7 @@
   "kt.popover.background": "light-idegrey-1",
   "kt.popover.border": "light-idegrey-5",
   "kt.popover.foreground": "light-idegrey-9",
+  "kt.popover.prominentBackground": "light-idegrey-3",
   "kt.primaryButton.background": "light-ideblue-6",
   "kt.primaryButton.clickBackground": "light-ideblue-7",
   "kt.primaryButton.foreground": "light-idegrey-1",
