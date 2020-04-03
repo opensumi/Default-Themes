@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v2.0.0-alpha.16...v2.0.0) (2020-04-03)
+
+
+### Features
+
+* add kt.popover.prominentBackground ([80fdc37](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/80fdc37e29b785609a44da9abbabca2364a62d71))
+
 ## [2.0.0-alpha.16](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v2.0.0-alpha.15...v2.0.0-alpha.16) (2020-03-31)
 
 
