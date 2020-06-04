@@ -60,7 +60,7 @@
     "inputValidation.errorBorder": "#D21F28",
     "inputValidation.errorBackground": "#321115",
     "input.foreground": "#D7DBDE",
-    "input.background": "#00000040",
+    "input.background": "#00000073",
 
     // kaitian custom input
     "kt.input.disableForeground": "#5F656B",
