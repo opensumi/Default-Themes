@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.1](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v2.0.0...v2.0.1) (2020-06-04)
+
+
+### Bug Fixes
+
+* 修复 input.background 透明度过低问题 ([6f69efc](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/6f69efc4eb3fa10f9f22c326d85d78ea0dccded7))
+
 ## [2.0.0](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v2.0.0-alpha.16...v2.0.0) (2020-04-03)
 
 
