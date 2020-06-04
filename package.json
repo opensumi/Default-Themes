@@ -16,9 +16,8 @@
     "update:theme-json": "node scripts/index.js",
     "conflict-detect": "node scripts/conflict-detect.js",
     "update": "npm run update:token-map && npm run update:theme-template && npm run update:theme-json && npm run conflict-detect",
-    "build": "rm -rf ../ide-theme.zip && builder zip . .. .builderignore",
     "release": "standard-version",
-    "postrelease": "npm run build"
+    "postrelease": "kaitian publish"
   },
   "publishConfig": {
     "registry": "http://registry.npm.alibaba-inc.com"
