@@ -16,7 +16,6 @@
     "badge.foreground": "#4D4D4D",
     "checkbox.background": "#FFFFFF",
     "checkbox.border": "#E0E0E0",
-    "checkbox.selectionAllForeground": "#1785EB",
     "descriptionForeground": "#999999",
     "diffEditor.insertedTextBackground": "#5CDBD340",
     "dirtyDot.foreground": "#999999",

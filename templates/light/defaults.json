@@ -13,7 +13,6 @@
   "badge.foreground": "light-idegrey-9",
   "checkbox.background": "light-idegrey-1",
   "checkbox.border": "light-idegrey-5",
-  "checkbox.selectionAllForeground": "light-ideblue-6",
   "descriptionForeground": "light-idegrey-7",
   "diffEditor.insertedTextBackground": "opacity(light-cyan-4,25)",
   "dirtyDot.foreground": "light-idegrey-7",
