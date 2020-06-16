@@ -22,6 +22,7 @@
   "editorGroup.dropBackground": "opacity(dark-idegrey-6,25)",
   "editorGroup.emptyBackground": "dark-idegrey-1",
   "editorGroupHeader.tabsBackground": "dark-idegrey-3",
+  "editorSuggestWidget.selectedBackground": "dark-ideblue-5",
   "errorForeground": "dark-red-6",
   "focusBorder": "dark-ideblue-6",
   "foreground": "dark-idegrey-9",
