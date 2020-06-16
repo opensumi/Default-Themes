@@ -25,6 +25,7 @@
     "editorGroup.dropBackground": "#CCCCCC40",
     "editorGroup.emptyBackground": "#FFFFFF",
     "editorGroupHeader.tabsBackground": "#F2F2F2",
+    "editorSuggestWidget.selectedBackground": "#0D75D6",
     "errorForeground": "#FFF1F0",
     "focusBorder": "#1785EB",
     "foreground": "#4D4D4D",

@@ -98,5 +98,9 @@
   "kt.dirtyDot.foreground": [
     "dark-idegrey-7",
     "light-idegrey-7"
+  ],
+  "editorSuggestWidget.selectedBackground": [
+    "dark-ideblue-5",
+    "light-ideblue-7"
   ]
 }
