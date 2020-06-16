@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.0](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v2.0.1...v2.1.0) (2020-06-16)
+
+
+### Features
+
+* add editorSuggestWidget.selectedBackground ([697f692](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/697f6921e4a37ffc091ea309450f64ac98372804))
+
 ### [2.0.1](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v2.0.0...v2.0.1) (2020-06-04)
 
 
