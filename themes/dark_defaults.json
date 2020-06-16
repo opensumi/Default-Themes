@@ -243,6 +243,7 @@
     "editor.foreground":"#B2B2B3",
     "editor.findMatchHighlightBackground": "#fa541c40",
     "diffEditor.insertedTextBackground": "#00d96d40",
+    "editorSuggestWidget.selectedBackground": "#1A66AC",
 
   }
 }
