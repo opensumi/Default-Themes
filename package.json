@@ -22,6 +22,7 @@
   "publishConfig": {
     "registry": "http://registry.npm.alibaba-inc.com"
   },
+  "icon": "icons/icon.png",
   "files": [
     "palette",
     "token-map"
