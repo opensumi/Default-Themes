@@ -14,9 +14,5 @@
   "kt.popover.border": [
     "dark-idegrey-3",
     "light-idegrey-5"
-  ],
-  "popover.shadow": [
-    "",
-    ""
   ]
 }

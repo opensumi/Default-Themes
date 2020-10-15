@@ -249,11 +249,7 @@
   "tooltip.background": "light-idegrey-1",
   "tooltip.foreground": "light-idegrey-9",
   "tree.dropShadow": "0px 1px 2px -2px rgba(0,0,0,0.16)",
-  "tree.foreground": "light-idegrey-9",
-  "tree.hoverBackground": "opacity(light-idegrey-6,25)",
   "tree.hoverForeground": "light-idegrey-9",
-  "tree.secondaryForeground": "light-idegrey-7",
-  "tree.selectionBackground": "light-ideblue-7",
   "treeIcon.foreground": "light-idegrey-9",
   "widget.shadow": "light-idegrey-6"
 }
