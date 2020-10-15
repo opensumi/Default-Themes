@@ -34,7 +34,7 @@
   "gitDecoration.submoduleResourceForeground": "dark-ideblue-8",
   "gitDecoration.untrackedResourceForeground": "dark-cyan-8",
   "icon.foreground": "dark-idegrey-9",
-  "input.background": "opacity(dark-black,45)",
+  "input.background": "opacity(dark-black,25)",
   "input.foreground": "dark-idegrey-9",
   "input.placeholderForeground": "dark-idegrey-6",
   "inputDropdown.searchMatchForeground": "dark-ideblue-7",
@@ -248,11 +248,7 @@
   "terminal.selectionBackground": "opacity(dark-idegrey-6,25)",
   "tooltip.background": "dark-idegrey-4",
   "tooltip.foreground": "dark-idegrey-9",
-  "tree.foreground": "dark-idegrey-9",
-  "tree.hoverBackground": "opacity(dark-idegrey-6,25)",
   "tree.hoverForeground": "dark-idegrey-9",
-  "tree.secondaryForeground": "dark-idegrey-7",
-  "tree.selectionBackground": "dark-ideblue-5",
   "treeIcon.foreground": "dark-idegrey-9",
   "widget.shadow": "opacity(black, 60)"
 }

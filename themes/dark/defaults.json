@@ -37,7 +37,7 @@
     "gitDecoration.submoduleResourceForeground": "#67ABEB",
     "gitDecoration.untrackedResourceForeground": "#58D1C9",
     "icon.foreground": "#D7DBDE",
-    "input.background": "#00000073",
+    "input.background": "#00000040",
     "input.foreground": "#D7DBDE",
     "input.placeholderForeground": "#5F656B",
     "inputDropdown.searchMatchForeground": "#3895EB",
@@ -250,11 +250,7 @@
     "terminal.selectionBackground": "#5F656B40",
     "tooltip.background": "#35393D",
     "tooltip.foreground": "#D7DBDE",
-    "tree.foreground": "#D7DBDE",
-    "tree.hoverBackground": "#5F656B40",
     "tree.hoverForeground": "#D7DBDE",
-    "tree.secondaryForeground": "#868C91",
-    "tree.selectionBackground": "#1A66AC",
     "treeIcon.foreground": "#D7DBDE",
     "widget.shadow": "#00000099"
   }

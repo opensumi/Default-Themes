@@ -4,7 +4,7 @@
     "light-idegrey-9"
   ],
   "input.background": [
-    "opacity(dark-black,45)",
+    "opacity(dark-black,25)",
     "light-idegrey-1"
   ],
   "input.placeholderForeground": [

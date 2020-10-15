@@ -250,11 +250,7 @@
     "terminal.selectionBackground": "#CCCCCC40",
     "tooltip.background": "#FFFFFF",
     "tooltip.foreground": "#4D4D4D",
-    "tree.foreground": "#4D4D4D",
-    "tree.hoverBackground": "#CCCCCC40",
     "tree.hoverForeground": "#4D4D4D",
-    "tree.secondaryForeground": "#999999",
-    "tree.selectionBackground": "#0D75D6",
     "treeIcon.foreground": "#4D4D4D",
     "widget.shadow": "#CCCCCC"
   }
