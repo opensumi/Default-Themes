@@ -11,6 +11,7 @@
     "vscode": "*",
     "kaitian": ">=1.7.19"
   },
+  "enableKaitianWebAssets": true,
   "scripts": {
     "update:token-map": "node scripts/yuque-crawler.js",
     "update:theme-template": "node scripts/update-theme-template.js",
