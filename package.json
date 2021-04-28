@@ -79,6 +79,7 @@
     "@commitlint/config-conventional": "^8.2.0",
     "@types/cheerio": "^0.22.16",
     "axios": "^0.19.2",
+    "bluebird": "^3.7.2",
     "chalk": "^3.0.0",
     "changed-git-files": "^0.0.1",
     "cheerio": "^1.0.0-rc.3",

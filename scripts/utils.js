@@ -10,12 +10,20 @@ function convertDashToKebab(str) {
   return str.replace(/-/g, '_')
 }
 
+const defaultPlatteVars = {
+  white: '#ffffff',
+  black: '#000000'
+}
+
 function getPaletteDesc(palettePath) {
   const paletteLess = fs.readFileSync(palettePath, 'utf8')
-  const platte = lessToJs(paletteLess, {
-    resolveVariables: true,
-    stripPrefix: true
-  })
+  const platte = {
+    ...defaultPlatteVars,
+    ...lessToJs(paletteLess, {
+      resolveVariables: true,
+      stripPrefix: true
+    })
+  }
   // 将所有的 key 转化成 kebab
   return Object.keys(platte).reduce((prev, key) => {
     prev[convertDashToKebab(key)] = platte[key]
