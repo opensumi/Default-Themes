@@ -7,7 +7,6 @@ module.exports = Object.assign(
   require('./input.json'),
   require('./select.json'),
   require('./checkbox.json'),
-  require('./tree.json'),
   require('./modal.json'),
   require('./notification.json'),
   require('./message.json'),
