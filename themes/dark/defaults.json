@@ -18,9 +18,8 @@
     "checkbox.border": "#00000000",
     "descriptionForeground": "#868C91",
     "diffEditor.insertedTextBackground": "#12A7A740",
-    "dirtyDot.foreground": "#868C91",
     "editor.background": "#202224",
-    "editor.findMatchHighlightBackground": "#D7791540",
+    "editor.findMatchHighlightBackground": "#D7491A40",
     "editorGroup.border": "#43484D",
     "editorGroup.dropBackground": "#5F656B40",
     "editorGroup.emptyBackground": "#202224",
@@ -169,6 +168,7 @@
     "kt.tree.activeSelectionBackground": "#1A66AC",
     "kt.tree.activeSelectionForeground": "#FFFFFF",
     "kt.tree.hoverBackground": "#5F656B40",
+    "kt.tree.hoverForeground": "#D7DBDE",
     "kt.tree.inactiveSelectionBackground": "#167CDB40",
     "kt.tree.inactiveSelectionForeground": "#D7DBDE",
     "kt.warningBackground": "#D7951340",
@@ -250,8 +250,6 @@
     "terminal.selectionBackground": "#5F656B40",
     "tooltip.background": "#35393D",
     "tooltip.foreground": "#D7DBDE",
-    "tree.hoverForeground": "#D7DBDE",
-    "treeIcon.foreground": "#D7DBDE",
     "widget.shadow": "#00000099"
   }
 }
