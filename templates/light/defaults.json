@@ -15,7 +15,6 @@
   "checkbox.border": "light-idegrey-5",
   "descriptionForeground": "light-idegrey-7",
   "diffEditor.insertedTextBackground": "opacity(light-cyan-4,25)",
-  "dirtyDot.foreground": "light-idegrey-7",
   "editor.background": "light-idegrey-1",
   "editor.findMatchHighlightBackground": "opacity(light-volcano-4,25)",
   "editorGroup.border": "light-idegrey-5",
@@ -166,6 +165,7 @@
   "kt.tree.activeSelectionBackground": "light-ideblue-7",
   "kt.tree.activeSelectionForeground": "light-idegrey-1",
   "kt.tree.hoverBackground": "opacity(light-idegrey-6,25)",
+  "kt.tree.hoverForeground": "light-idegrey-9",
   "kt.tree.inactiveSelectionBackground": "opacity(light-ideblue-4,25)",
   "kt.tree.inactiveSelectionForeground": "light-idegrey-9",
   "kt.warningBackground": "opacity(light-gold-4,25)",
@@ -248,8 +248,5 @@
   "terminal.selectionBackground": "opacity(light-idegrey-6,25)",
   "tooltip.background": "light-idegrey-1",
   "tooltip.foreground": "light-idegrey-9",
-  "tree.dropShadow": "0px 1px 2px -2px rgba(0,0,0,0.16)",
-  "tree.hoverForeground": "light-idegrey-9",
-  "treeIcon.foreground": "light-idegrey-9",
   "widget.shadow": "light-idegrey-6"
 }

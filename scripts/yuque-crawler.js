@@ -38,8 +38,12 @@ class CrawlProcess {
   async start() {
     const spinner = ora('Crawling content from yuque').start()
 
-    const promises = docSlugs.map(slug => this.fetchBodyHtml(slug))
-    await Promise.all(promises)
+    for (const slug of docSlugs) {
+      await this.fetchBodyHtml(slug).catch(err => {
+        console.log('slug fetch with error:', err)
+      })
+    }
+
     await this.generateTokenMapEntry()
 
     const files = await gitChangedFiles()
@@ -105,68 +109,139 @@ ${docs.map(docSlug => `  require('./${docSlug}.json')`).join(',\n')}
   queryContent(html) {
     const $ = cheerio.load(html)
     const result = {}
-    $('.lake-table tbody tr').each((index, element) => {
-      // 跳过 th 表头
-      if (index === 0) {
-        return
-      }
 
-      const $$ = $(element)
-      const $tdChild = $$.children('td')
-      // 跳过 描述 一栏
-      if (
-        $tdChild
-          .first()
-          .text()
-          .trim() === '描述'
-      ) {
-        return
-      }
+    // 老的 lake table
+    if ($('.lake-table')) {
+      $('.lake-table tbody tr').each((index, element) => {
+        // 跳过 th 表头
+        if (index === 0) {
+          return
+        }
 
-      // 跳过 del 已删除
-      // 坑：yuque 网页上渲染的是 <del> 标签
-      // 但是接口拿回来的是 `<span style="text-decoration: line-through;"></span>`
-      const twoTds = [$tdChild.first().html(), $tdChild.eq(1).html()]
-      if (
-        twoTds.some(
-          html => html.includes('<del>') || html.includes('line-through')
-        )
-      ) {
-        return
-      }
+        const $element = $(element)
+        const $tdChild = $element.children('td')
+        // 跳过 描述 一栏
+        if (
+          $tdChild
+            .first()
+            .text()
+            .trim() === '描述'
+        ) {
+          return
+        }
 
-      try {
-        const themeToken = $tdChild
-          .eq(1)
-          .text()
-          .trim()
-        const darkLessVar = $tdChild
-          .eq(2)
-          .children('p')
-          .first()
-          .text()
-          .trim()
+        // 跳过 del 已删除
+        // 坑：yuque 网页上渲染的是 <del> 标签
+        // 但是接口拿回来的是 `<span style="text-decoration: line-through;"></span>`
+        const twoTds = [$tdChild.first().html(), $tdChild.eq(1).html()]
+        if (
+          twoTds.some(
+            html => html.includes('<del>') || html.includes('line-through')
+          )
+        ) {
+          return
+        }
 
-        let lightLessVar = darkLessVar
-
-        const $4thTd = $tdChild.eq(3)
-        if ($4thTd) {
-          const text = $4thTd
+        try {
+          const themeToken = $tdChild
+            .eq(1)
+            .text()
+            .trim()
+          const darkLessVar = $tdChild
+            .eq(2)
             .children('p')
             .first()
             .text()
             .trim()
-          if (text) {
-            lightLessVar = text
+
+          let lightLessVar = darkLessVar
+
+          const $4thTd = $tdChild.eq(3)
+          if ($4thTd) {
+            const text = $4thTd
+              .children('p')
+              .first()
+              .text()
+              .trim()
+            if (text) {
+              lightLessVar = text
+            }
           }
+
+          result[themeToken] = [darkLessVar, lightLessVar]
+        } catch (err) {
+          console.warn('error with:', element)
+          console.error(err)
+        }
+      })
+    }
+
+    // 新版本 yuque table
+    // 目前跟上面老的代码处理是一致的
+    if ($('.ne-table')) {
+      $('.ne-table tbody tr').each((index, element) => {
+        // 跳过 th 表头
+        if (index === 0) {
+          return
         }
 
-        result[themeToken] = [darkLessVar, lightLessVar]
-      } catch (err) {
-        console.warn('error with:', element)
-        console.error(err)
-      }
-    })
+        const $element = $(element)
+        const $tdChild = $element.children('td')
+        // 跳过 描述 一栏
+        if (
+          $tdChild
+            .first()
+            .text()
+            .trim() === '描述'
+        ) {
+          return
+        }
+
+        // 跳过 del 已删除
+        // 坑：yuque 网页上渲染的是 <del> 标签
+        // 但是接口拿回来的是 `<span style="text-decoration: line-through;"></span>`
+        const twoTds = [$tdChild.first().html(), $tdChild.eq(1).html()]
+        if (
+          twoTds.some(
+            html => html.includes('<del>') || html.includes('line-through')
+          )
+        ) {
+          return
+        }
+
+        try {
+          const themeToken = $tdChild
+            .eq(1)
+            .text()
+            .trim()
+          const darkLessVar = $tdChild
+            .eq(2)
+            .children('p')
+            .first()
+            .text()
+            .trim()
+
+          let lightLessVar = darkLessVar
+
+          const $4thTd = $tdChild.eq(3)
+          if ($4thTd) {
+            const text = $4thTd
+              .children('p')
+              .first()
+              .text()
+              .trim()
+            if (text) {
+              lightLessVar = text
+            }
+          }
+
+          result[themeToken] = [darkLessVar, lightLessVar]
+        } catch (err) {
+          console.warn('error with:', element)
+          console.error(err)
+        }
+      })
+    }
 
     return result
   }
