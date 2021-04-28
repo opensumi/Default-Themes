@@ -1,6 +1,7 @@
 const path = require('path')
 const fs = require('fs')
 const { promisify } = require('util')
+const bluebird = require('bluebird')
 
 const ora = require('ora')
 const chalk = require('chalk')
@@ -38,11 +39,15 @@ class CrawlProcess {
   async start() {
     const spinner = ora('Crawling content from yuque').start()
 
-    for (const slug of docSlugs) {
-      await this.fetchBodyHtml(slug).catch(err => {
-        console.log('slug fetch with error:', err)
-      })
-    }
+    await bluebird.map(
+      docSlugs,
+      slug => {
+        return this.fetchBodyHtml(slug).catch(err => {
+          console.log('slug fetch with error:', err)
+        })
+      },
+      { concurrency: 3 }
+    )
 
     await this.generateTokenMapEntry()
 
