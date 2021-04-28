@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.2.0](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v2.1.3...v2.2.0) (2021-03-03)
+
+
+### Features
+
+* add enableKaitianWebAssets ([777862d](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/777862db1257f516050953d806f44efdb5a72d98))
+* update `kt.panelTab.inactiveBackground` ([a4dadb3](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/a4dadb38a242debcadfcf5440a78b5f31d633fd0))
+
+
+### Bug Fixes
+
+* update input bg ([588723c](https://gitlab.alibaba-inc.com/kaitian/ide-theme/commit/588723cd25b39eb97849c1c607aefdc884d173b6))
+
+### [2.1.3](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v2.1.2...v2.1.3) (2020-10-15)
+
+### [2.1.2](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v2.1.1...v2.1.2) (2020-07-29)
+
 ## [2.1.0](https://gitlab.alibaba-inc.com/kaitian/ide-theme/compare/v2.0.1...v2.1.0) (2020-06-16)
 
 
