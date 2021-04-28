@@ -18,7 +18,6 @@
     "checkbox.border": "#E0E0E0",
     "descriptionForeground": "#999999",
     "diffEditor.insertedTextBackground": "#5CDBD340",
-    "dirtyDot.foreground": "#999999",
     "editor.background": "#FFFFFF",
     "editor.findMatchHighlightBackground": "#FF9C6E40",
     "editorGroup.border": "#E0E0E0",
@@ -169,6 +168,7 @@
     "kt.tree.activeSelectionBackground": "#0D75D6",
     "kt.tree.activeSelectionForeground": "#FFFFFF",
     "kt.tree.hoverBackground": "#CCCCCC40",
+    "kt.tree.hoverForeground": "#4D4D4D",
     "kt.tree.inactiveSelectionBackground": "#6EB6FA40",
     "kt.tree.inactiveSelectionForeground": "#4D4D4D",
     "kt.warningBackground": "#FFD66640",
@@ -250,12 +250,6 @@
     "terminal.selectionBackground": "#CCCCCC40",
     "tooltip.background": "#FFFFFF",
     "tooltip.foreground": "#4D4D4D",
-    "tree.foreground": "#4D4D4D",
-    "tree.hoverBackground": "#CCCCCC40",
-    "tree.hoverForeground": "#4D4D4D",
-    "tree.secondaryForeground": "#999999",
-    "tree.selectionBackground": "#0D75D6",
-    "treeIcon.foreground": "#4D4D4D",
     "widget.shadow": "#CCCCCC"
   }
 }

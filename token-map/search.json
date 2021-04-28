@@ -1,6 +1,6 @@
 {
   "editor.findMatchHighlightBackground": [
-    "opacity(dark-orange-6,25)",
+    "opacity(dark-volcano-6,25)",
     "opacity(light-volcano-4,25)"
   ],
   "diffEditor.insertedTextBackground": [

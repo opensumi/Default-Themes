@@ -5,7 +5,7 @@ module.exports = [
   'input',
   'select',
   'checkbox',
-  'tree',
+  // 'tree',
   'modal',
   'notification',
   'message',
