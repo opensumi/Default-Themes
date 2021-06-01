@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.4.0](https://code.alipay.com/kaitian/ide-theme/compare/v2.3.2...v2.4.0) (2021-06-01)
+
+
+### Features
+
+* upgrade token editorSuggestWidget.selectedBackground ([1ef468f](https://code.alipay.com/kaitian/ide-theme/commit/1ef468fef7f71a5f2d9d020e50af321920d44c31))
+
 ### [2.3.2](https://code.alipay.com/kaitian/ide-theme/compare/v2.3.1...v2.3.2) (2021-04-28)
 
 ### [2.3.1](https://code.alipay.com/kaitian/ide-theme/compare/v2.2.0...v2.3.1) (2021-04-28)
