@@ -101,6 +101,6 @@
   ],
   "editorSuggestWidget.selectedBackground": [
     "dark-ideblue-5",
-    "light-ideblue-7"
+    "opacity(light-ideblue-4,25)"
   ]
 }
