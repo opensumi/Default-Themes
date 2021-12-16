@@ -103,3 +103,5 @@ public
 *theme.zip
 
 .DS_Store
+
+*.vsix

@@ -1,114 +1,41 @@
 {
-  "name": "@ali/ide-ext-theme",
-  "displayName": "IDE UI Theme",
-  "description": "IDE UI Theme",
+  "name": "opensumi-default-themes",
+  "displayName": "OpenSumi Default Themes",
+  "description": "The default OpenSumi themes",
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "opensumi",
+    "theme",
+    "themes"
+  ],
   "version": "2.5.0",
-  "publisher": "kaitian",
+  "publisher": "opensumi",
   "engines": {
-    "vscode": "*",
-    "kaitian": ">=1.7.19"
+    "vscode": "*"
   },
-  "enableKaitianWebAssets": true,
-  "scripts": {
-    "update:token-map": "node scripts/yuque-crawler.js",
-    "update:theme-template": "node scripts/update-theme-template.js",
-    "update:theme-json": "node scripts/index.js",
-    "conflict-detect": "node scripts/conflict-detect.js",
-    "update": "npm run update:token-map && npm run update:theme-template && npm run update:theme-json && npm run conflict-detect",
-    "release": "standard-version",
-    "postrelease": "kaitian package -o=../ide-theme.zip"
+  "repository": {
+    "url": "https://github.com/opensumi/Default-Themes"
   },
   "publishConfig": {
     "registry": "http://registry.npm.alibaba-inc.com"
   },
   "icon": "icons/icon.png",
-  "files": [
-    "palette",
-    "token-map"
-  ],
-  "ideThemeConfig": [
-    {
-      "id": "ide-dark",
-      "category": "dark",
-      "palette": "./palette/dark.less"
-    },
-    {
-      "id": "ide-light",
-      "category": "light",
-      "palette": "./palette/light.less"
-    }
-  ],
   "contributes": {
     "themes": [
       {
-        "id": "ide-dark",
-        "label": "IDE Dark",
+        "id": "opensumi-dark",
+        "label": "OpenSumi Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/dark/plus.json"
       },
       {
-        "id": "ide-light",
-        "label": "IDE Light",
+        "id": "opensumi-light",
+        "label": "OpenSumi Light",
         "uiTheme": "vs",
         "path": "./themes/light/plus.json"
       }
     ]
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.js": [
-      "eslint",
-      "prettier --parser babel --write"
-    ]
-  },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
-  },
-  "devDependencies": {
-    "@commitlint/cli": "^8.2.0",
-    "@commitlint/config-conventional": "^8.2.0",
-    "@types/cheerio": "^0.22.16",
-    "axios": "^0.19.2",
-    "bluebird": "^3.7.2",
-    "chalk": "^3.0.0",
-    "changed-git-files": "^0.0.1",
-    "cheerio": "^1.0.0-rc.3",
-    "color": "^3.1.2",
-    "eslint": "^6.8.0",
-    "eslint-config-prettier": "^6.10.0",
-    "eslint-config-prettier-standard": "^3.0.1",
-    "eslint-config-standard": "^14.1.0",
-    "eslint-plugin-import": "^2.20.1",
-    "eslint-plugin-node": "^11.0.0",
-    "eslint-plugin-prettier": "^3.1.2",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1",
-    "git-user-name": "^2.0.0",
-    "git-username": "^1.0.0",
-    "got": "^10.6.0",
-    "handlebars": "^4.7.3",
-    "husky": "^4.2.3",
-    "inquirer": "^7.1.0",
-    "is-color": "^1.0.2",
-    "json5": "^2.1.1",
-    "less-vars-to-js": "^1.3.0",
-    "lint-staged": "^10.0.7",
-    "lodash": "^4.17.15",
-    "ora": "^4.0.3",
-    "prettier": "1.19.1",
-    "prettier-config-standard": "^1.0.1",
-    "read-pkg": "^5.2.0",
-    "standard-version": "^7.0.0",
-    "strip-json-comments": "^3.0.1"
   }
 }

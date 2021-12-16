@@ -1,6 +1,6 @@
 {
 	"$schema": "vscode://schemas/color-theme",
-	"name": "Light+ (default light)",
+	"name": "OpenSumi Light+ (default light)",
 	"include": "./vs.json",
 	"tokenColors": [ // adds rules to the light vs rules
 		{
