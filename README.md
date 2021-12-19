@@ -10,3 +10,8 @@
 ### OpenSumi Light Theme
 ![Light Theme](./snapshots/sumi-default-light.png)
 
+### VS Code
+
+[Install from VS Marketplace](https://marketplace.visualstudio.com/items?itemName=opensumi.opensumi-default-themes)
+
+![Sumi Themes For VS Code](./snapshots/sumi-vs.png)
