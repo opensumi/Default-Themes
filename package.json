@@ -16,7 +16,8 @@
     "vscode": "*"
   },
   "repository": {
-    "url": "https://github.com/opensumi/Default-Themes"
+    "type": "git",
+    "url": "git@github.com:opensumi/Default-Themes.git"
   },
   "publishConfig": {
     "registry": "http://registry.npm.alibaba-inc.com"
