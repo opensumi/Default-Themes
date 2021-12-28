@@ -10,7 +10,7 @@
     "theme",
     "themes"
   ],
-  "version": "2.5.2",
+  "version": "2.5.3",
   "publisher": "opensumi",
   "engines": {
     "vscode": "*"
