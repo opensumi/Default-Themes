@@ -19,9 +19,6 @@
     "type": "git",
     "url": "https://github.com/opensumi/Default-Themes"
   },
-  "publishConfig": {
-    "registry": "http://registry.npm.alibaba-inc.com"
-  },
   "icon": "icons/icon.png",
   "contributes": {
     "themes": [
