@@ -35,7 +35,7 @@ jobs:
 
       - name: Publish to MS Marketplace
         run: |
-          npx vsce publish -p ${{ secrets.VSCE_PAT }} ./opensumi-default-themes-${{env.CURRENT_VERSION}}.vsix
+          npx vsce publish -p ${{ secrets.VSCE_PAT }}
 
       - name: Publish to OpenVSX
         run: |
