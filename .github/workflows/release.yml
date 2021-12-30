@@ -1,0 +1,37 @@
+name: Publish Theme
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  publishTheme:
+    name: Publish Theme
+    if: ${{ github.repository == 'opensumi/Default-Themes' }}
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [12.x]
+    
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    - name: Pack
+      run: |
+        npx vsce package --baseImagesUrl https://raw.githubusercontent.com/opensumi/Default-Themes/main  -o ./opensumi-default-theme.vsix
+    
+    - name: Publish to MS Marketplace
+      run: |
+        npx vsce publish -p ${{ secrets.VSCE_PAT }} ./opensumi-default-theme.vsix
+    
+    - name: Publish to OpenVSX
+      run: |
+        npx ovsx publish -p ${{ secrets.OPEN_VSX_TOKEN }} ./opensumi-default-theme.vsix
