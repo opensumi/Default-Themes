@@ -10,7 +10,7 @@
     "theme",
     "themes"
   ],
-  "version": "2.5.3",
+  "version": "2.5.4",
   "publisher": "opensumi",
   "engines": {
     "vscode": "*"
@@ -35,5 +35,6 @@
         "path": "./themes/light/plus.json"
       }
     ]
-  }
+  },
+  "dependencies": {}
 }
