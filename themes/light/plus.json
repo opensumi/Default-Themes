@@ -717,7 +717,7 @@
     "kt.secondaryButton.border": "#E0E0E0",
     "kt.secondaryButton.clickBorder": "#1785EB",
     "kt.secondaryButton.clickForeground": "#1785EB",
-    "kt.secondaryButton.foreground": "#FFFFFF",
+    "kt.secondaryButton.foreground": "#4D4D4D",
     "kt.secondaryButton.hoverBorder": "#6EB6FA",
     "kt.secondaryButton.hoverForeground": "#6EB6FA",
     "kt.select.background": "#FFFFFF",
