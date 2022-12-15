@@ -754,7 +754,7 @@
     "kt.whiteGhostButton.disableForeground": "#FFFFFF40",
     "kt.whiteGhostButton.foreground": "#FFFFFF",
     "list.activeSelectionBackground": "#0D75D6",
-    "list.activeSelectionForeground": "#FFFFFF",
+    "list.activeSelectionForeground": "#2f363d",
     "list.evenItemBackground": "#99999914",
     "list.headerBackground": "#9999991F",
     "list.hoverBackground": "#CCCCCC40",
